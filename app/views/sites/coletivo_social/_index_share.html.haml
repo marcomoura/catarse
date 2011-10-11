@@ -1,0 +1,7 @@
+#fb-root
+%script{:src => "http://connect.facebook.net/pt_BR/all.js#appId=212872375401915&amp;xfbml=1"}
+%fb:like{:font => "arial", :href => "http://www.facebook.com/Catarse.me", :layout => "button_count", :send => "true", :width => "180"}
+%a.twitter-share-button{"data-count" => "horizontal", "data-text" => "#{t("sites.#{current_site.path}.title")} · @#{current_site.twitter}", "data-url" => "http://catarse.me", :href => "http://twitter.com/share"} Tweet
+%script{:src => "http://platform.twitter.com/widgets.js", :type => "text/javascript"}
+%a.twitter-follow-button{"data-button" => "blue", "data-link-color" => "#FFFFFF", "data-text-color" => "#FFFFFF", "data-width" => "224px", :href => "http://twitter.com/Catarse_"} Follow @Catarse_
+%script{:src => "http://platform.twitter.com/widgets.js", :type => "text/javascript"}
