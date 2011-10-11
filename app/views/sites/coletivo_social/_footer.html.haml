@@ -1,0 +1,43 @@
+.body
+  = link_to t('.faq'), faq_path, :id => :faq 
+  #footer_menu
+    %ul
+      %li= link_to t('.about'), about_path
+      %li= link_to t('.wow_work'), guidelines_path
+      %li= link_to t('.project'), projects_path
+      %li= link_to t('.new_project'), new_project_path
+
+    %ul
+      %li= t('.shop') 
+      %li= t('.businnes')
+
+    %ul
+      %li= mail_to current_site.email, t('.email')
+      %li= link_to t('.greetings'), new_project_path
+    .collaborate
+      .stat
+        = render :partial => "/sites/#{current_site.path}/index_share"
+      .buy
+        = t('.joinus')
+        %p
+          = t('.collaborate')
+  #social_menu
+    %ul
+      %li
+        = link_to "http://twitter.com/#{current_site.twitter}", :target => :_blank, :id => 'twitter' do
+          = image_tag('social/twitter_32.png', :title => "Twitter")
+          = t('.twitter')
+      %li
+        = link_to current_site.facebook, :target => :_blank , :id => 'facebook' do
+          = image_tag('social/facebook_32.png', :title => "Facebook")
+          = raw t('.facebook')
+      %li
+        = link_to current_site.blog, :target => :_blank , :id => 'blog' do
+          = image_tag('social/rss_32.png', :title => "Blog")
+          = t('.blog')
+%p#copyright
+  = raw t('.copy', :year => Date.today.year)
+  %b
+  = link_to t('.terms'), terms_path
+  |
+  = link_to t('.privacy'), privacy_path

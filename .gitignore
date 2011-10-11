@@ -15,3 +15,4 @@ public/uploads/
 chromedriver.log
 .use_capybara_webkit
 .rvmrc
+tmp/restart.txt

@@ -12,11 +12,12 @@ Catarse::Application.routes.draw do
   match "/faq" => "projects#faq", :as => :faq
   match "/terms" => "projects#terms", :as => :terms
   match "/privacy" => "projects#privacy", :as => :privacy
-  match "/thank_you" => "payment_stream#thank_you", :as => :thank_you
-  match "/moip" => "payment_stream#moip", :as => :moip
+  match "/thank_you" => "projects#thank_you", :as => :thank_you
+  match "/moip" => "projects#moip", :as => :moip
   match "/explore" => "projects#explore", :as => :explore
   match "/explore/:quick" => "projects#explore", :as => :explore_quick
   match "/credits" => "credits#index", :as => :credits
+  match "/about" => "projects#about", :as => :about
 
   post "/pre_auth" => "sessions#pre_auth", :as => :pre_auth
   get "/auth" => "sessions#auth", :as => :auth
@@ -28,7 +29,6 @@ Catarse::Application.routes.draw do
     match "/fake_login" => "sessions#fake_create", :as => :fake_login
   end
   resources :projects, :only => [:index, :new, :create, :show] do
-    resources :rewards
     collection do
       get 'explore'
       get 'start'

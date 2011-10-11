@@ -1,0 +1,6 @@
+#pre_header 
+	- unless current_user
+		.content_pre_header
+			= link_to t('.signup'), '#', :id => 'signup_link'
+			span= '|'
+			= link_to t('.login'), '#', :id => 'login_link'
