@@ -1,14 +1,27 @@
 en:
   title: Coletivo Social is everyone's first website and voluntary contribution group.
   subtitle: Intended only for social projects to improve the quality of life of people and communities.
+  projects:
+    how_it_works:
+      chapeu: 'COLOCAR EM INGLÊS !!!!!!!!!!! Para anunciar no %{site}, envie as informações do que é o seu projeto ou do que necessita, o valor que precisa e até quando quer arrecdar o dinheiro. Quando colocarmos o projeto no site já será uuma forma de divulgação, mas é importante que você também o divulgue entre os seus contatos e conhecidos. As pessoas que se interessarem pelo seu projeto ou por sua causa podem contribuir, por meio do %{site}, com qualquer valor a partir de R$ 5,00 e recebem recompensas. Se você conseguir juntar todo o valor que precisa no prazo que estipulou, recebe o dinheiro. Caso não consiga, o dinheiro será devolvido às pessoas que fizeram os donativos. Acredite e faça acontecer!'
+      chapeu_more: "COLOCAR EM INGLÊS !!!!!!!!!!! PVeja mais dicas sobre como funciona %{site}"
   sites:
     coletivo_social:
-      title: The first crowdfunding platform from Brazil
+      title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
+      subtitle: "Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades."
+      content_header:
+        faq:
+          title: "Ficou com albuma dúvida?"
+          subtitle: "Nessa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+        guidelines:
+          title: "How works %{site}"
+          subtitle: "COLOCAR EM INGLÊS !!!!!!!!!!!!!!essa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+          submit: Send project
       back_header:
         title: Oohh yeah!
         subtitle: You're few steps away from making a difference and becoming part of this project.
       logo:
-        title: Catarse
+        title: Coletivo Social
       pre_header:
         content_html: Want to know how to back a project? %{link} for a step-by-step guide we published on our blog.
         help_link: Click here
@@ -23,8 +36,8 @@ en:
       index_meta_tags:
         description: Make the projects you believe in happen! Fund projects in a collaborative manner and become part of something bigger. Join everyone who wants to see a project happening and make it come true. You're the missing part in this story.
       menu:
-        explore: Explore the projects
-        submit: Submit your project
+        explore: The projects
+        submit: Add project
         signup: Signup
         login: Login
       footer:
@@ -49,7 +62,7 @@ en:
         collaborate: Collaborate with us
       notification_email_footer:
         salutation: With love,
-        signature: Catarse Team
+        signature: Coletivo Social Team
       notification_email_header:
         alt: You must enable images to correctly see this message.
       project_warning:
@@ -59,9 +72,9 @@ en:
         text_html: <p>A Banda Mais Bonita da Cidade has always been a collective band. Thus, its album is going to be produced with everybody's collaboration.</p><p>With your support, you're going to receive rewards, follow the process of the album's production and help choosing the songs.</p>
         submit: Click here and see how you can be part of this album
         title_html: |
-          Yey!<div class="retrospective">finally discover</div> what is the<div class="surprise">amazing surprise</div> from <div class="catarse">Catarse</div>
+          Yey!<div class="retrospective">finally discover</div> what is the<div class="surprise">amazing surprise</div> from <div class="catarse">Coletivo Social</div>
       press:
-        title: Check out what they are saying about Catarse on the press
+        title: Check out what they are saying about Coletivo Social on the press
       projects:
         home_page_projects:
           title: Our cathartic selection!
@@ -71,7 +84,7 @@ en:
           subtitle: Uh! Time's almost up for these ones...back'em while you can!
         recent:
           title: Fresh and new
-          subtitle: Projects that just arrived on Catarse. Smell as if they just came out of the oven...
+          subtitle: Projects that just arrived on Coletivo Social. Smell as if they just came out of the oven...
         successful:
           title: Successful projects
           subtitle: Meet our newest prides :) tomorrow your project might be here!

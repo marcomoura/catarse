@@ -1,14 +1,24 @@
 pt:
   title: "Coletivo social é de todo mundo e o primeiro website de contribuição voluntária em grupo."
   subtitle_html: Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades.
+  projects:
+    how_it_works:
+      chapeu: "Para anunciar no %{site}, envie as informações do que é o seu projeto ou do que necessita, o valor que precisa e até quando quer arrecdar o dinheiro. Quando colocarmos o projeto no site já será uuma forma de divulgação, mas é importante que você também o divulgue entre os seus contatos e conhecidos. As pessoas que se interessarem pelo seu projeto ou por sua causa podem contribuir, por meio do %{site}, com qualquer valor a partir de R$ 5,00 e recebem recompensas. Se você conseguir juntar todo o valor que precisa no prazo que estipulou, recebe o dinheiro. Caso não consiga, o dinheiro será devolvido às pessoas que fizeram os donativos. Acredite e faça acontecer!"
+      chapeu_more: "Veja mais dicas sobre como funciona %{site}"
   sites:
     coletivo_social:
+      title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
+      subtitle: "Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades."
       content_header:
         faq:
           title: "Ficou com albuma dúvida?"
           subtitle: "Nessa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
-      title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
-      subtitle: "Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades."
+          bread: Faq/Ajuda
+        guidelines:
+          title: "Como trabalha %{site}"
+          subtitle: "Para fazer acontecer, envie o seu projeto! Para ajudar, basta ter vontade, escolher o projjeto e dar a sua contribuição."
+          submit: Enviar projeto
+          bread: O COLETIVO
       back_header:
         title: Oohh yeah!
         subtitle: Você está a poucos passos de fazer a diferença e se tornar parte deste projeto.
@@ -28,8 +38,8 @@ pt:
       index_meta_tags:
         description: Faça acontecer os projetos em que você acredita! Financie projetos de maneira colaborativa e torne-se parte de algo maior. Junte-se a todo mundo que quer ver um projeto sair e faça ele virar realidade. Você é a peça que falta nesta história.
       menu:
-        explore: Explore os projetos
-        submit: Envie seu projeto
+        explore: Os projetos
+        submit: Inserir projeto
         signup: Cadastre-se
         login: Entrar
       footer:
@@ -64,7 +74,7 @@ pt:
         text_html: <p>A Banda Mais Bonita da Cidade sempre foi coletiva. Por isso, o disco da banda será produzido com a colaboração de todos.</p><p>Apoiando financeiramente, você vai receber benefícios, acompanhar o processo de producão do disco e ajudar na escolha das músicas.</p>
         submit: Clique aqui e veja como fazer parte deste disco
         title_html: |
-          Rá!<div class="retrospective">descubra finalmente</div> qual é a <div class="surprise">grande surpresa</div> do <div class="catarse">Catarse</div>
+          Rá!<div class="retrospective">descubra finalmente</div> qual é a <div class="surprise">grande surpresa</div> do <div class="catarse">Coletivo Social</div>
       press:
         title: Confira o que estão falando do Catarse na imprensa
       projects:

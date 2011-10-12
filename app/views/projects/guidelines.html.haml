@@ -1,6 +1,7 @@
 = content_for :content_header do
-  %h1= t('.title', :site => current_site.the_name)
-  %h2= t('.subtitle', :site => current_site.the_name)
+  %h1= t("sites.#{current_site.path}.content_header.guidelines.title", :site => current_site.the_name)
+  %h2= t("sites.#{current_site.path}.content_header.guidelines.subtitle", :site => current_site.the_name)
+  .bread= t("sites.#{current_site.path}.content_header.guidelines.bread")
 #how_it_works= render 'how_it_works'
 #more_tips.hide= render 'more_tips'
 = render 'guidelines_text'
@@ -9,5 +10,5 @@
     = check_box_tag 'accept'
     = label_tag 'accept', t('.accept', :site => current_site.the_name)
   %fieldset
-    = submit_tag t('.submit'), :disabled => true
+    = submit_tag t("sites.#{current_site.path}.content_header.guidelines.submit") + ' >', :disabled => true
 = javascript_include_tag 'guidelines'

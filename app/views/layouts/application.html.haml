@@ -1,7 +1,7 @@
 !!! 5
 %html{:lang => I18n.locale}
   = render :partial => 'layouts/head'
-  %body#site
+  %body#site{:class => current_site.path.to_s} 
     = render :partial => 'layouts/flash', :locals => { :flash => flash } unless flash.empty?
     = render :partial => 'layouts/locales'
     = render :partial => 'layouts/pre_header'
