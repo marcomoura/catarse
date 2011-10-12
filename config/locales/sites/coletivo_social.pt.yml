@@ -3,7 +3,12 @@ pt:
   subtitle_html: Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades.
   sites:
     coletivo_social:
-      title: A primeira plataforma de financiamento colaborativo de projetos criativos do Brasil
+      content_header:
+        faq:
+          title: "Ficou com albuma dúvida?"
+          subtitle: "Nessa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+      title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
+      subtitle: "Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades."
       back_header:
         title: Oohh yeah!
         subtitle: Você está a poucos passos de fazer a diferença e se tornar parte deste projeto.
@@ -27,8 +32,6 @@ pt:
         submit: Envie seu projeto
         signup: Cadastre-se
         login: Entrar
-      faq:
-        title: Ficou com albuma dúvida?
       footer:
         guidelines: Como funciona?
         faq: FAQ / Ajuda

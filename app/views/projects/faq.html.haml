@@ -1,6 +1,6 @@
 = content_for :content_header do
-  %h1= t('.title')
-  %h2 Esclareça suas dúvidas e aprenda mais sobre financiamento colaborativo e sobre #{current_site.the_name}.
+  %h1= t("sites.#{current_site.path}.content_header.faq.title")
+  %h2= t("sites.#{current_site.path}.content_header.faq.subtitle")
 .text
   %h2 Informações fundamentais
   %h3 O que é #{current_site.the_name}?
