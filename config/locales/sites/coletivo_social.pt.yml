@@ -1,6 +1,6 @@
 pt:
   title: "Coletivo social é de todo mundo e o primeiro website de contribuição voluntária em grupo."
-  subtitle: Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades.
+  subtitle_html: Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades.
   sites:
     coletivo_social:
       title: A primeira plataforma de financiamento colaborativo de projetos criativos do Brasil
@@ -22,6 +22,13 @@ pt:
         subtitle_html: Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades.
       index_meta_tags:
         description: Faça acontecer os projetos em que você acredita! Financie projetos de maneira colaborativa e torne-se parte de algo maior. Junte-se a todo mundo que quer ver um projeto sair e faça ele virar realidade. Você é a peça que falta nesta história.
+      menu:
+        explore: Explore os projetos
+        submit: Envie seu projeto
+        signup: Cadastre-se
+        login: Entrar
+      faq:
+        title: Ficou com albuma dúvida?
       footer:
         guidelines: Como funciona?
         faq: FAQ / Ajuda

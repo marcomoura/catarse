@@ -1,12 +1,26 @@
 @import "compass/css3"
 @import "compass/utilities"
 body#site
+  background: #FAFAFA
+  font-size: 12px
+  +box-shadow(rgba(0,0,0,0.0), 0px, 0px, 0px)
   a
     color: rgb(73,140,54)
     &:hover
       color: rgb(104,168,82)
   #main
     width: 100%
+  #pre_header
+    background-color: #6C714E
+    #content_header
+      float: left
+      width: 460px
+      color: #00B9C4
+      display: block
+      float: left
+      font-size: 16px
+      line-height: 18px
+      margin-top: 30px
   #header
     width: 960px
     margin: 0 auto
@@ -27,27 +41,40 @@ body#site
         padding: 8px 24px !important
       h2
         padding: 8px 24px !important
+  #menu
+    float: right
+    margin-top: 38px
+    margin-bottom: 20px
+    ul
+      +horizontal-list(12px)
+      li
+        a
+          text-decoration: none
+          background-color: #B9B9B9
+          +border-radius(3px, 3px)
+          padding: 5px 10px 5px 40px
+          margin-left: 10px
+          color: #fff 
+          display: block
+          font-size: 14px
+          font-weight: 900
+          &:hover
+            background-color: #EE0578
   #content_header_wrapper
-    background-color: rgb(104,168,82)
-    +linear-gradient(color_stops(rgb(73,140,54), rgb(104,168,82)))
-    +box-shadow(rgba(0,0,0,0.5), 0, 0, 5px)
+    background-color: #F8C181
   #content_wrapper
-    +box-shadow(transparent, 0, 0, 0)
     background-color: transparent
+    +box-shadow(rgba(0,0,0,0.0), 0px, 0px, 0px)
     #notification_wrapper
       width: 880px
       border: 1px #999 solid
-      +border-radius(3px, 3px)
-      +box-shadow(#999, 0, 0, 3px)
       padding: 5px 0 5px 0
       background: #E0E0E0
       margin: 20px auto 0
       div
         h1
-          font-family: "museo-500"
           padding: 8px 0 5px 10px
           font-size: 20px
-          +text-shadow(none)
           text-align: center
           color: #333
           a
@@ -56,19 +83,22 @@ body#site
     #content_header
       width: 960px
       margin: 0 auto
-      background-color: transparent
+      background-color: #84AFB5
       text-align: left
-      +box-shadow(transparent, 0, 0, 0)
       padding: 10px 0
+      +box-shadow(rgba(0,0,0,0.0), 0px, 0px, 0px)
+      +border-top-left-radius(0px)
       h1
+        font-family: "Helvetica Neue,Helvetica,Arial,sans-serif"
         padding: 8px
         font-size: 28px
+        +text-shadow(#fff, 0px, 0px, 0px)
       h2
         padding: 8px
+        +text-shadow(#fff, 0px, 0px, 0px)
     #content
       width: 960px
       margin: 0 auto
-      +box-shadow(transparent, 0, 0, 0)
       h1
         color: rgb(73,140,54)
       h2
@@ -138,3 +168,102 @@ body#site
           +linear-gradient(color_stops(rgb(73,140,54), rgb(104,168,82)))
         input[type=submit]:disabled
           +linear-gradient(color_stops(#bbb,#888))
+
+  #footer
+    background-color: #82A7FF
+    color: #fff
+    padding: 0px 0 10px 0
+    border-top: solid 7px #6C714E
+    +text-shadow(transparent, 0, 0, 0)
+    margin-top: 40px
+    padding-top: 0px
+    background-color: #8C9BFD 
+    color: #ddd
+    text-align: left
+    .body
+      width: 960px
+      background: transparent url(coletivo_social/logo_footer.png) 0 50% no-repeat
+      margin: auto
+      position: relative
+      #faq
+        position: absolute
+        top: 0
+        left: 0
+        background-color: #6C714E
+        padding: 5px 5px 5px 30px
+        color: #FF961F
+        text-decoration: none
+    a
+      color: #ddd
+      &:hover
+        color: #fff 
+    #footer_menu
+      margin: 0 0 0 150px
+      padding: 20px 0
+      width: auto
+      ul
+        +horizontal-list(12px)
+        float: left
+        margin: 0 40px
+        li
+          float: none
+          display: block
+          border-bottom: 1px solid #ccc
+          text-align: left
+          margin-top: 10px
+          font-weight: 400
+          padding: 0 0 5px 0
+          a
+            text-decoration: none
+            &:hover
+              color: #4A498A
+              font-weight: 900
+      .collaborate
+        color: #fff
+        float: right
+        width: 300px
+        .buy, .stat
+          border-radius: 10px
+          background-color: rgba( 255, 255, 255, .2)
+          margin-bottom: 10px
+          padding: 10px
+          p
+            font-weight: 900
+            font-style: italic
+            font-size: 24px
+
+    #social_menu
+      margin: 0 auto
+      width: 488px
+      padding-bottom: 40px
+      font-size: 16px
+      clear: both
+      img
+        vertical-align: middle
+        padding-bottom: 4px
+        height: 22px
+      ul
+        +horizontal-list(12px)
+        li
+          a
+            font-size: 12px
+            padding: 3px 10px 0px
+            border-radius: 10px 10px 10px 10px
+            background: rgba(255, 255, 255, 0.15)
+            text-decoration: none
+            font-weight: bold
+            display: block
+            float: left
+            &:hover
+              background-color: #6F76CB
+  p#copyright
+    border-top: 3px solid rgba(255, 255, 255, .2)
+    padding-top: 10px
+    width: 1200px
+    margin: 0 auto
+    text-align: center
+
+    img
+      width: 10px
+    a
+      text-width: 900

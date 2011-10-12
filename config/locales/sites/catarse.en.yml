@@ -18,6 +18,11 @@ en:
         subtitle_html: Fund projects collaboratively and become part of something bigger.<br/>Promote a collective catharsis! You're the missing part in this story.
       index_meta_tags:
         description: Make the projects you believe in happen! Fund projects in a collaborative manner and become part of something bigger. Join everyone who wants to see a project happening and make it come true. You're the missing part in this story.
+      menu:
+        explore: Explore the projects
+        submit: Submit your project
+        signup: Signup
+        login: Login
       footer:
         guidelines: How does it work?
         faq: FAQ/Help

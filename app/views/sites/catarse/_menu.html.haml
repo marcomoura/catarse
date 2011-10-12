@@ -1,0 +1,8 @@
+#menu
+  %ul
+    %li= link_to t('.menu.explore'), explore_path
+    %li= link_to t('.menu.submit'), guidelines_path, :id => 'new_project_link'
+    - unless current_user
+      %li= link_to t('.menu.signup'), '#', :id => 'signup_link'
+      %li= link_to t('.menu.login'), '#', :id => 'login_link'
+.clear

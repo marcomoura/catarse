@@ -18,6 +18,11 @@ pt:
         subtitle_html:  Financie projetos de maneira colaborativa e torne-se parte de algo maior.<br/>Promova uma catarse coletiva! Você é a peça que falta nesta história.
       index_meta_tags:
         description: Faça acontecer os projetos em que você acredita! Financie projetos de maneira colaborativa e torne-se parte de algo maior. Junte-se a todo mundo que quer ver um projeto sair e faça ele virar realidade. Você é a peça que falta nesta história.
+      menu:
+        explore: Explore os projetos
+        submit: Envie seu projeto
+        signup: Cadastre-se
+        login: Entrar
       footer:
         guidelines: Como funciona?
         faq: FAQ/Ajuda

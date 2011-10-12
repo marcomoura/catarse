@@ -169,11 +169,6 @@ pt:
       my_credits: Meus créditos
       logout: Sair
     application:
-      menu:
-        explore: Explore os projetos
-        submit: Envie seu projeto
-        signup: Cadastre-se
-        login: Entrar
       notifications:
         new_curated_pages: "Já conhece os Canais Catárticos? <a href='#curated_pages' id='curated_link'>Olha aqui</a>!"
   curated_pages:
