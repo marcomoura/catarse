@@ -251,11 +251,11 @@ pt:
       title: Envie seu projeto
       subtitle: A hora para fazer acontecer é agora! Estamos loucos para saber o que você está aprontando...
       about: Descreva seu projeto e quanto você precisa
-      about_hint: Conte-nos um pouco sobre o que você quer fazer, de quanto precisa e para que. Seja sucinto e pontual, mas não esqueça de presentear os leitores com algo que mexa com eles. Afinal, é sua criação e eles precisam ver sua paixão em prática!
-      rewards: Que recompensas você quer oferecer?
-      rewards_hint: A gente acredita que a melhor maneira de inspirar as pessoas a apoiar um projeto é oferecendo excelentes – e criativas! – recompensas. Todo mundo adora edições limitadas, coisas únicas e experiências divertidas (festas, guloseimas, viajar de balão!). Gaste um bom tempo bolando recompensas criativas e as pessoas se interessarão.
+      about_hint: Conte-nos um pouco sobre o que você quer fazer, de quanto precisa e para que. 
+      rewards: Que recompensas você quer oferecer? 
+      rewards_hint: Descreva aqui as sua recompensas. Inspire as pessoas a apoiaremm seu projeto! Pense em excelentes recompensas. E as pessoas se interessarão!
       links: Onde podemos encontrar mais sobre você e seu projeto?
-      links_hint: Deixe-nos o máximo de links que você tiver, para que a gente possa conhecer melhor seu trabalho e seu projeto. Não precisa ser algo formal nem nada, só alguns links úteis.
+      links_hint: Deixe-nos o máximo de links que você tiver, para que a gente possa conhecer melhor seu trabalho e seu projeto.
       contact: Deixe seu email para entrarmos em contato
       submit: Enviar o projeto
     send_mail:

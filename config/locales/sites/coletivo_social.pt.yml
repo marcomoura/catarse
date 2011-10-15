@@ -5,6 +5,17 @@ pt:
     how_it_works:
       chapeu: "Para anunciar no %{site}, envie as informações do que é o seu projeto ou do que necessita, o valor que precisa e até quando quer arrecdar o dinheiro. Quando colocarmos o projeto no site já será uuma forma de divulgação, mas é importante que você também o divulgue entre os seus contatos e conhecidos. As pessoas que se interessarem pelo seu projeto ou por sua causa podem contribuir, por meio do %{site}, com qualquer valor a partir de R$ 5,00 e recebem recompensas. Se você conseguir juntar todo o valor que precisa no prazo que estipulou, recebe o dinheiro. Caso não consiga, o dinheiro será devolvido às pessoas que fizeram os donativos. Acredite e faça acontecer!"
       chapeu_more: "Veja mais dicas sobre como funciona %{site}"
+    start:
+      title: Envie seu projeto
+      subtitle: 'Este é o espaço para você nos contar tudo sobre o seu projeto.'
+      about: Descreva seu projeto e quanto você precisa
+      about_hint: Conte-nos um pouco sobre o que você quer fazer, de quanto precisa e para que. 
+      rewards: Que recompensas você quer oferecer?
+      rewards_hint: A gente acredita que a melhor maneira de inspirar as pessoas a apoiar um projeto é oferecendo excelentes – e criativas! – recompensas. Todo mundo adora edições limitadas, coisas únicas e experiências divertidas (festas, guloseimas, viajar de balão!). Gaste um bom tempo bolando recompensas criativas e as pessoas se interessarão.
+      links: Onde podemos encontrar mais sobre você e seu projeto?
+      links_hint: Deixe-nos o máximo de links que você tiver, para que a gente possa conhecer melhor seu trabalho e seu projeto. Não precisa ser algo formal nem nada, só alguns links úteis.
+      contact: Deixe seu email para entrarmos em contato
+      submit: Enviar o projeto
   sites:
     coletivo_social:
       title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
@@ -14,6 +25,8 @@ pt:
           title: "Ficou com albuma dúvida?"
           subtitle: "Nessa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
           bread: Faq/Ajuda
+        start:
+          bread: Cadastro
         guidelines:
           title: "Como trabalha %{site}"
           subtitle: "Para fazer acontecer, envie o seu projeto! Para ajudar, basta ter vontade, escolher o projjeto e dar a sua contribuição."
@@ -68,7 +81,7 @@ pt:
       notification_email_header:
         alt: Você deve habilitar imagens para visualizar corretamente essa mensagem.
       project_warning:
-        content_html: Quer aumentar a chance de seu projeto ser selecionado? Não deixe de ler %{link}.
+        content_html: Aumente as chances de seu projeto ser selecionado! Leia o %{link}.
         help_link: nosso guia
       promo_video:
         text_html: <p>A Banda Mais Bonita da Cidade sempre foi coletiva. Por isso, o disco da banda será produzido com a colaboração de todos.</p><p>Apoiando financeiramente, você vai receber benefícios, acompanhar o processo de producão do disco e ajudar na escolha das músicas.</p>
