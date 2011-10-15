@@ -1,18 +1,19 @@
 = content_for :content_header do
   %h1= t('.title')
   %h2= t('.subtitle')
+  .bread= t("sites.#{current_site.path}.content_header.start.bread")
 = render :partial => "/sites/#{current_site.path}/project_warning"
 = form_tag(send_mail_projects_path, :id => 'start_project_form') do
   %fieldset
     = label_tag 'about', t('.about')
-    = text_area_tag 'about'
     %p.inline-hints= t('.about_hint')
+    = text_area_tag 'about'
     = label_tag 'rewards', t('.rewards')
-    = text_area_tag 'rewards'
     %p.inline-hints= t('.rewards_hint')
+    = text_area_tag 'rewards'
     = label_tag 'links', t('.links')
-    = text_area_tag 'links'
     %p.inline-hints= t('.links_hint')
+    = text_area_tag 'links'
     = label_tag 'contact', t('.contact')
     = text_field_tag 'contact', (current_user.email if current_user)
   .submit
