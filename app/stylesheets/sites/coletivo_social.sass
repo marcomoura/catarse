@@ -8,6 +8,24 @@ body#site
     color: rgb(73,140,54)
     &:hover
       color: rgb(104,168,82)
+  form
+    a
+      color: #E69C45
+    p.inline-hints
+      color: #777
+      font-size: 14px
+      padding-bottom: 0 !important
+      display: block
+    textarea,
+    input.ok,
+    label
+      background-color: #FDF6EC
+      border: none
+    #start_project_form
+      #contact
+        width: 100%
+        display: block
+        color: #E69C45
   #main
     width: 100%
   #pre_header
@@ -288,13 +306,14 @@ body#site
             float: left
             &:hover
               background-color: #6F76CB
-  #how_it_works
+  #how_it_works, #project_warning
     background-color: #03BACC
     +border-radius(0px, 0px)
     +box-shadow(rgba(0,0,0,0.0), 0px, 0px, 0px)
     color: #fff
     font-size: 12px
     line-height: 14px
+    text-align: left
     #show-tips
       a
         color: #fff
