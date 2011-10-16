@@ -47,7 +47,7 @@ body#site
     h1
       margin-left: 8px
       font-size: 12px
-      width: 540px
+      width: 600px
       color: #00BACD
       img
         float: left
@@ -94,12 +94,11 @@ body#site
     background-color: transparent
     +no-shadow
     #content_header
-      border-left: 3px solid #fff
       .bread
         font-size: 16px
         font-weight: 900
         margin-left: -260px
-        margin-top: -20px
+        margin-top: -10px
         position: absolute
         text-align: right
         width: 200px
@@ -123,12 +122,13 @@ body#site
       margin: 0 auto
       background-color: #84AFB5
       text-align: left
-      padding: 10px 0 0 40px
+      padding: 10px 0 10px 40px
       +no-shadow
       +border-top-left-radius(0px)
-      h1, he 
+      border-left: 3px solid #fff
+      h1, h2
         padding: 8px
-        font-size: 28px
+        font-size: 14px
         +text-shadow(#fff, 0px, 0px, 0px)
     #content
       width: 960px
@@ -277,12 +277,35 @@ body#site
       display: inline
   #explore_projects
     #explore_menu
+      float: none
+      width: auto
+      h3
+        color: $color-blue
+        font-size: 20px
+        text-transform: uppercase
       ul
-        li a
-          &:hover
-            background-color: rgb(104,168,82)
-          &.selected
-            background-color: rgb(73,140,54)
+        margin-bottom: 20px
+        padding-bottom: 10px
+        border-bottom: 1px solid #999
+        li 
+          display: inline
+          border-right: 1px solid #ccc
+          a
+            display: inline
+            background-color: #fff
+            font-size: 12px
+            font-weight: 400
+            color: #999
+            &:hover
+              color: #999
+              background-color: #fff
+            &.selected
+              color: $font-color
+              background-color: #fff
+              font-weight: 900
+    #explore_results
+      float: none
+      width: auto
   #project_back_info
     #back_project
       form
