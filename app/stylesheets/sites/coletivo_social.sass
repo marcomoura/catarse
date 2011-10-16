@@ -4,7 +4,7 @@ body#site
   background: #FAFAFA
   font-size: 12px
   +no-shadow
-  font-family: "Helvetica Neue,Helvetica,Arial,sans-serif"
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif 
   +text-shadow(#fff, 0px, 0px, 0px)
   a
     color: rgb(73,140,54)
@@ -220,6 +220,11 @@ body#site
     .project_progress
       background-color: #A9AB97
       +no-border
+      padding-top: 5px
+      .container
+        background-color: #6F6E69
+        margin: 0 5px 10px
+        padding: 3px 0 3px 30px
     .project_wrap
       .project_header 
         .project_image
@@ -234,7 +239,9 @@ body#site
       font-size: 18px
   .progress_bar
     +no-border
-    border: 3px double #BBBBBB
+    border: 3px double #888
+    background-color: #787A75
+    margin: 0
     .progress
       background-color: #FF961F
       +no-border
@@ -261,6 +268,13 @@ body#site
     a
       color: #000
       clear: both
+    .explore_more_arrow
+      background-color: #000
+      color: #fff
+      padding: 0 5px
+      font-size: 12px
+      float: none
+      display: inline
   #explore_projects
     #explore_menu
       ul

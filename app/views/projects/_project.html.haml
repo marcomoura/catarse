@@ -23,9 +23,10 @@
         = project.headline
     .clear
   .project_progress
-    .progress_bar
-      .progress{ :style => "width: #{project.display_percent}%" }
-        &nbsp;
+    .container
+      .progress_bar
+        .progress{ :style => "width: #{project.display_percent}%" }
+          &nbsp;
     .progress_info
       %ul
         %li
