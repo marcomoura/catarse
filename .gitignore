@@ -16,3 +16,4 @@ chromedriver.log
 .use_capybara_webkit
 .rvmrc
 tmp/restart.txt
+site_config.yml

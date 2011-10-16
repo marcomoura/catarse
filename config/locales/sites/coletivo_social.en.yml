@@ -17,6 +17,8 @@ en:
         guidelines:
           title: "How works %{site}"
           subtitle: "COLOCAR EM INGLÊS !!!!!!!!!!!!!!essa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista com as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+          submit: Submit project
+          bread: THE COLLECTIVE
         start:
           bread: Cadastro
         profile:
@@ -82,13 +84,13 @@ en:
         title: Check out what they are saying about Coletivo Social on the press
       projects:
         home_page_projects:
-          title: Our cathartic selection!
+          title: Projects recommended
           subtitle: Meet the projects that caused us a catharsis :) every day a new selection.
         expiring:
           title: Final countdown
           subtitle: Uh! Time's almost up for these ones...back'em while you can!
         recent:
-          title: Fresh and new
+          title: Recent projects
           subtitle: Projects that just arrived on Coletivo Social. Smell as if they just came out of the oven...
         successful:
           title: Successful projects

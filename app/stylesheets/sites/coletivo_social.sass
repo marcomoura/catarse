@@ -136,12 +136,12 @@ body#site
       h1
         color: rgb(73,140,54)
       h1, h2
-        color: #666A45 !important
+        color: $color-brown !important
         font-size: 14px !important
         font-weight: 900 !important
         padding-bottom: 10px !important
       h3, label
-        color: #666A45
+        color: $color-brown
         font-size: 14px
       strong
         color: #F29113
@@ -157,6 +157,13 @@ body#site
         ul 
           li
             margin: 0
+      .project_box 
+        strong
+          color: #000
+        .project_wrap 
+          .project_header
+            h1
+              font-size: 24px !important
       #project_back_info
         #rewards
           h1
@@ -196,12 +203,41 @@ body#site
         width: 224px !important
       iframe.twitter-share-button
         margin-top: 8px
+  .project_list_header
+    color: $color-blue
+    font-size: 32px
+    line-height: 42px
+    text-transform: uppercase
+    border-top: 10px solid #6C6F50
+    margin: 10px 0 0 0
+    padding: 10px 20px 10px
+  .project_list_header , .project_list_wrapper
+    background-color: #fff
   .project_box
-    +box-shadow(rgba(0,0,0,0.5), 0, 3px, 4px)
+    padding: 3px
+    +no-border
+    border: 1px solid #999
+    .project_progress
+      background-color: #A9AB97
+      +no-border
+    .project_wrap
+      .project_header 
+        .project_image
+          +no-border
+          height: 150px
+    .project_category
+      color: $color-blue
+      background-color: rgba(0,0,0, 0.5)
+      top: 118px
+      width: 226px
+      border-right: 8px solid rgba(0, 188, 196, 0.7)
+      font-size: 18px
   .progress_bar
+    +no-border
+    border: 3px double #BBBBBB
     .progress
-      background-color: rgb(104,168,82)
-      +linear-gradient(color_stops(rgb(73,140,54), rgb(104,168,82)))
+      background-color: #FF961F
+      +no-border
   #project_description
     #project_menu
       ul
@@ -212,6 +248,19 @@ body#site
           &.selected
             a
               background-color: rgb(73,140,54)
+  .explore_more
+    background-color: #fff
+    margin: 0
+    padding: 0 10px
+    hr
+      opacity: 1
+      margin: 0
+      width: auto
+      float: none
+      margin-bottom: 10px
+    a
+      color: #000
+      clear: both
   #explore_projects
     #explore_menu
       ul

@@ -1,0 +1,10 @@
+development: &default
+  mailer:
+    from: "sample <sample@sample.com>"
+    to: sample@sample.com
+
+test:
+  << *default
+
+production:
+  << *default

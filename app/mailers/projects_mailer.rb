@@ -1,6 +1,6 @@
 class ProjectsMailer < ActionMailer::Base
   include ERB::Util
-  default :from => "Catarse <system@catarse.me>"
+  default :from => SITE_CONFIG[:mailer][:from] 
 
   def start_project_email(about, rewards, links, contact, user, site)
     @about = h(about).gsub("\n", "<br>").html_safe
@@ -9,6 +9,6 @@ class ProjectsMailer < ActionMailer::Base
     @contact = contact
     @user = user
     @site = site
-    mail(:to => "projetos@catarse.me", :subject => t('projects_mailer.start_project_email.subject', :name => @user.name))
+    mail(:to =>  SITE_CONFIG[:mailer][:to], :subject => t('projects_mailer.start_project_email.subject', :name => @user.name))
   end
 end
