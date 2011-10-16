@@ -25,13 +25,15 @@ pt:
           title: "Ficou com albuma dúvida?"
           subtitle: "Nessa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
           bread: Faq/Ajuda
-        start:
-          bread: Cadastro
         guidelines:
           title: "Como trabalha %{site}"
           subtitle: "Para fazer acontecer, envie o seu projeto! Para ajudar, basta ter vontade, escolher o projjeto e dar a sua contribuição."
           submit: Enviar projeto
           bread: O COLETIVO
+        start:
+          bread: Cadastro
+        profile:
+          bread: Meu Perfil
       back_header:
         title: Oohh yeah!
         subtitle: Você está a poucos passos de fazer a diferença e se tornar parte deste projeto.

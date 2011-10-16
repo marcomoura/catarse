@@ -12,10 +12,15 @@ en:
       content_header:
         faq:
           title: "Ficou com albuma dúvida?"
-          subtitle: "Nessa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+          subtitle: "Nessa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista com as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+          bread: Faq/Help
         guidelines:
           title: "How works %{site}"
-          subtitle: "COLOCAR EM INGLÊS !!!!!!!!!!!!!!essa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+          subtitle: "COLOCAR EM INGLÊS !!!!!!!!!!!!!!essa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista com as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+        start:
+          bread: Cadastro
+        profile:
+          bread: Meu Perfil
           submit: Send project
       back_header:
         title: Oohh yeah!

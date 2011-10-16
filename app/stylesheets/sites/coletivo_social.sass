@@ -1,9 +1,11 @@
-@import "compass/css3"
-@import "compass/utilities"
+@import "base"
+
 body#site
   background: #FAFAFA
   font-size: 12px
-  +box-shadow(rgba(0,0,0,0.0), 0px, 0px, 0px)
+  +no-shadow
+  font-family: "Helvetica Neue,Helvetica,Arial,sans-serif"
+  +text-shadow(#fff, 0px, 0px, 0px)
   a
     color: rgb(73,140,54)
     &:hover
@@ -19,7 +21,7 @@ body#site
     textarea,
     input.ok,
     label
-      background-color: #FDF6EC
+      +bg-color-input
       border: none
     #start_project_form
       #contact
@@ -90,7 +92,7 @@ body#site
     background-color: #F8C181
   #content_wrapper
     background-color: transparent
-    +box-shadow(rgba(0,0,0,0.0), 0px, 0px, 0px)
+    +no-shadow
     #content_header
       border-left: 3px solid #fff
       .bread
@@ -122,32 +124,39 @@ body#site
       background-color: #84AFB5
       text-align: left
       padding: 10px 0 0 40px
-      +box-shadow(rgba(0,0,0,0.0), 0px, 0px, 0px)
+      +no-shadow
       +border-top-left-radius(0px)
-      h1
-        font-family: "Helvetica Neue,Helvetica,Arial,sans-serif"
+      h1, he 
         padding: 8px
         font-size: 28px
-        +text-shadow(#fff, 0px, 0px, 0px)
-      h2
-        padding: 8px
         +text-shadow(#fff, 0px, 0px, 0px)
     #content
       width: 960px
       margin: 0 auto
       h1
         color: rgb(73,140,54)
-      h2
-        color: rgb(73,140,54)
-        color: #666A45
-        font-size: 14px
-        font-weight: 900
-        padding-bottom: 10px
+      h1, h2
+        color: #666A45 !important
+        font-size: 14px !important
+        font-weight: 900 !important
+        padding-bottom: 10px !important
       h3, label
         color: #666A45
         font-size: 14px
       strong
         color: #F29113
+      #user_feed
+        font-size: 12px
+        .container
+          +bg-color-input
+        a
+          color: $font-color
+          font-size: 12px
+        div
+          margin: 0
+        ul 
+          li
+            margin: 0
       #project_back_info
         #rewards
           h1
@@ -159,6 +168,10 @@ body#site
           background-color: #02BBCF
           border: none
           color: #fff
+  #profile_header
+    .image
+      img
+        +no-shadow
   #project_header
     h1
       padding-left: 0 !important
@@ -306,14 +319,18 @@ body#site
             float: left
             &:hover
               background-color: #6F76CB
-  #how_it_works, #project_warning
+  #gravatar_hint
+    background-image: url()
+
+  #how_it_works, #project_warning, #user_feed #gravatar_hint
     background-color: #03BACC
-    +border-radius(0px, 0px)
-    +box-shadow(rgba(0,0,0,0.0), 0px, 0px, 0px)
+    +no-border
+    +no-shadow
     color: #fff
     font-size: 12px
     line-height: 14px
     text-align: left
+    border-right: 7px solid #F8C181
     #show-tips
       a
         color: #fff

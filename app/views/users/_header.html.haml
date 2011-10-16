@@ -18,4 +18,6 @@
           #{on_the_spot_edit @user, :bio, :type => :textarea, :tooltip => t('.bio_tooltip')}
         - else
           = @user.bio
+      .clear
+      .bread= t("sites.#{current_site.path}.content_header.profile.bread")
     .clear
