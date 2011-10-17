@@ -279,8 +279,9 @@ body#site
           height: 150px
     .project_category
       color: $color-blue
-      background-color: rgba(0,0,0, 0.5)
-      top: 118px
+      background: rgba(0,0,0, 0.5) url(coletivo_social/heart.png) no-repeat -2px -2px
+      line-height: 24px
+      top: 106px
       width: 226px
       border-right: 8px solid rgba(0, 188, 196, 0.7)
       font-size: 18px
@@ -385,7 +386,7 @@ body#site
         position: absolute
         top: 0
         left: 0
-        background-color: #6C714E
+        background: #6C714E url(coletivo_social/ico_faq.png) 10px 50% no-repeat
         padding: 5px 5px 5px 30px
         color: #FF961F
         text-decoration: none
@@ -417,7 +418,7 @@ body#site
       .collaborate
         color: #fff
         +float-right
-        width: 300px
+        width: 200px
         .buy, .stat
           border-radius: 10px
           background-color: rgba( 255, 255, 255, .2)
@@ -426,7 +427,11 @@ body#site
           p
             font-weight: 900
             font-style: italic
-            font-size: 24px
+            font-size: 18px
+        .buy
+          background: rgba( 255, 255, 255, .2) url(coletivo_social/payments.png) no-repeat 50% 90%
+          padding-bottom: 70px
+
 
     #social_menu
       margin: 0 auto
@@ -477,3 +482,6 @@ body#site
       width: 10px
     a
       text-width: 900
+  .on_the_spot_editing
+    &:after
+      content: " " url("coletivo_social/pencil.png")
