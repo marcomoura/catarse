@@ -120,12 +120,12 @@ body#site
     #content_header
       width: 960px
       margin: 0 auto
-      background-color: #84AFB5
+      background: #84AFB5 url(coletivo_social/content_header.png) -5px 10px no-repeat
       text-align: left
       padding: 10px 0 30px 40px
       +no-shadow
       +border-top-left-radius(0px)
-      border-left: 3px solid #fff
+      border-left: 2px solid #fff
       h1, h2
         padding: 0 8px
         font-size: 14px
@@ -174,9 +174,15 @@ body#site
             color: #222
       form
         input[type=submit]
-          background-color: #02BBCF
-          border: none
+          background: #02BBCF url(coletivo_social/bt.png) 0 0 no-repeat
+          +no-shadow
+          +no-border
           color: #fff
+          padding: 2px 5px 2px 15px
+          font-size: 12px
+          text-transform: uppercase
+          font-weight: 400
+          +no-txt-shadow
       #back_options
         #backer_value_input
           +box-blue-orange
