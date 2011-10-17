@@ -17,11 +17,12 @@
     = form.buttons do
       = form.commit_button t('.submit'), :button_html => {:disabled => true}
 #back_info
-  = image_tag @project.display_image
   #project_info
+    = image_tag @project.display_image
     .project_name= link_to @project.name, project_path(@project)
     .project_owner por #{link_to @project.user.display_name, user_path(@project.user)}
     .project_expires_at #{@project.time_to_go[:time]} #{@project.time_to_go[:unit]} #{pluralize_without_number(@project.time_to_go[:time], t('remaining_singular'), t('remaining_plural'))}
+    .clear
   .clear
   = render 'back_text'
 .clear

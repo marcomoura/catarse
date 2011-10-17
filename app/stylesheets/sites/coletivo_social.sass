@@ -33,11 +33,11 @@ body#site
   #pre_header
     background-color: #6C714E
     #content_header
-      float: left
+      +float-left
       width: 460px
       color: #00B9C4
       display: block
-      float: left
+      +float-left
       font-size: 16px
       line-height: 18px
       margin-top: 30px
@@ -50,18 +50,18 @@ body#site
       width: 600px
       color: #00BACD
       img
-        float: left
+        +float-left
       &.home_logo
         margin-left: 27px
       .slogan
         display: block
         margin-top: 20px
     #content_header
-      float: left
+      +float-left
       width: 460px
       color: #00B9C4
       display: block
-      float: left
+      +float-left
       font-size: 16px
       line-height: 18px
       margin-top: 30px
@@ -70,7 +70,7 @@ body#site
       h2
         padding: 8px 24px !important
   #menu
-    float: left
+    +float-left
     margin-top: 38px
     margin-bottom: 20px
     ul
@@ -98,10 +98,10 @@ body#site
         font-size: 16px
         font-weight: 900
         margin-left: -260px
-        margin-top: -10px
         position: absolute
         text-align: right
         width: 200px
+        text-transform: uppercase
     #notification_wrapper
       width: 880px
       border: 1px #999 solid
@@ -122,14 +122,16 @@ body#site
       margin: 0 auto
       background-color: #84AFB5
       text-align: left
-      padding: 10px 0 10px 40px
+      padding: 10px 0 30px 40px
       +no-shadow
       +border-top-left-radius(0px)
       border-left: 3px solid #fff
       h1, h2
-        padding: 8px
+        padding: 0 8px
         font-size: 14px
         +text-shadow(#fff, 0px, 0px, 0px)
+      h1
+        font-size: 18px
     #content
       width: 960px
       margin: 0 auto
@@ -175,10 +177,55 @@ body#site
           background-color: #02BBCF
           border: none
           color: #fff
-  #profile_header
-    .image
-      img
-        +no-shadow
+      #back_options
+        #backer_value_input
+          +box-blue-orange
+          padding: 0 20px
+          input
+            background-color: #fff
+            border: none
+            +no-border
+            margin-top: 0
+          label, .inline-hints
+            background-color: transparent
+            color: #fff
+          label
+            font-weight: 900
+          .inline-hints
+            font-size: 12px
+        ol
+          +no-shadow
+        li
+          +no-border
+          +no-shadow
+          padding: 0
+          label
+            +no-shadow
+      #back_info
+        font-size: 12px
+        line-height: 16px
+        color: #555
+        padding-left: 10px
+        border-left: 1px dotted #777
+        #project_info
+          background-color: #84AFB5
+          padding: 20px 20px 5px
+          width: auto
+          +reset-float
+          +border-right
+          .project_owner, .project_expires_at, a
+            color: #fff 
+          .project_expires_at
+            font-size: 12px
+            font-weight: 400
+          img
+            +float-right
+            +no-shadow
+            border: 1px solid #fff
+      #profile_header
+        .image
+          img
+            +no-shadow
   #project_header
     h1
       padding-left: 0 !important
@@ -191,7 +238,7 @@ body#site
     position: relative
     #index_share
       margin-top: -90px
-      float: right
+      +float-right
       width: 224px
       iframe
         width: 180px !important
@@ -263,7 +310,7 @@ body#site
       opacity: 1
       margin: 0
       width: auto
-      float: none
+      +reset-float
       margin-bottom: 10px
     a
       color: #000
@@ -273,11 +320,11 @@ body#site
       color: #fff
       padding: 0 5px
       font-size: 12px
-      float: none
+      +reset-float
       display: inline
   #explore_projects
     #explore_menu
-      float: none
+      +reset-float
       width: auto
       h3
         color: $color-blue
@@ -304,7 +351,7 @@ body#site
               background-color: #fff
               font-weight: 900
     #explore_results
-      float: none
+      +reset-float
       width: auto
   #project_back_info
     #back_project
@@ -352,10 +399,10 @@ body#site
       width: auto
       ul
         +horizontal-list(12px)
-        float: left
+        +float-left
         margin: 0 40px
         li
-          float: none
+          +reset-float
           display: block
           border-bottom: 1px solid #ccc
           text-align: left
@@ -369,7 +416,7 @@ body#site
               font-weight: 900
       .collaborate
         color: #fff
-        float: right
+        +float-right
         width: 300px
         .buy, .stat
           border-radius: 10px
@@ -402,21 +449,19 @@ body#site
             text-decoration: none
             font-weight: bold
             display: block
-            float: left
+            +float-left
             &:hover
               background-color: #6F76CB
   #gravatar_hint
     background-image: url()
 
   #how_it_works, #project_warning, #user_feed #gravatar_hint
-    background-color: #03BACC
     +no-border
     +no-shadow
-    color: #fff
+    +box-blue-orange
     font-size: 12px
     line-height: 14px
     text-align: left
-    border-right: 7px solid #F8C181
     #show-tips
       a
         color: #fff

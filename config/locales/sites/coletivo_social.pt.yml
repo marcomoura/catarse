@@ -32,6 +32,8 @@ pt:
           bread: O COLETIVO
         start:
           bread: Cadastro
+        backer:
+          bread: Apoiar
         profile:
           bread: Meu Perfil
         explore:
@@ -39,8 +41,8 @@ pt:
           subtitle: "Nós do Coletivo Social temos o prazer de apresentar projetos que buscam uma melhor qualidade de vida para as pessoas e as comunidades. Para eles acontecerem, precisamos de sua ajuda. Contribua e ajude a divulgar!"
           bread: PROJETOS
       back_header:
-        title: Oohh yeah!
-        subtitle: Você está a poucos passos de fazer a diferença e se tornar parte deste projeto.
+        title: 'Isso sim é atitude de quem quer um Mundo Melhor!'
+        subtitle: 'Faça a diferença! Torne-se parte atuante deste projeto.'
       logo:
         title: Catarse
       pre_header:

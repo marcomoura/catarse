@@ -3,8 +3,8 @@ en:
   subtitle: Intended only for social projects to improve the quality of life of people and communities.
   projects:
     how_it_works:
-      chapeu: 'COLOCAR EM INGLÊS !!!!!!!!!!! Para anunciar no %{site}, envie as informações do que é o seu projeto ou do que necessita, o valor que precisa e até quando quer arrecdar o dinheiro. Quando colocarmos o projeto no site já será uuma forma de divulgação, mas é importante que você também o divulgue entre os seus contatos e conhecidos. As pessoas que se interessarem pelo seu projeto ou por sua causa podem contribuir, por meio do %{site}, com qualquer valor a partir de R$ 5,00 e recebem recompensas. Se você conseguir juntar todo o valor que precisa no prazo que estipulou, recebe o dinheiro. Caso não consiga, o dinheiro será devolvido às pessoas que fizeram os donativos. Acredite e faça acontecer!'
-      chapeu_more: "COLOCAR EM INGLÊS !!!!!!!!!!! PVeja mais dicas sobre como funciona %{site}"
+      chapeu: "To post a project through Coletivo Social, send project information including the total amount needed and the deadline. While we will promote each project received, it's essential that you let friends, family, and colleagues know about the project. Any value over 5.00 BRL (approx. 3.00 USD) can be donated, and as long as the funding goal is reached by the deadline, the donations go to the recipient. If not, the funds will be returned to the people who donated. If you believe in the project, you can make this happen!"
+      chapeu_more: "See more tips on how %{site}"
   sites:
     coletivo_social:
       title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
@@ -16,17 +16,19 @@ en:
           bread: Faq/Help
         guidelines:
           title: "How works %{site}"
-          subtitle: "COLOCAR EM INGLÊS !!!!!!!!!!!!!!essa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista com as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."
+          subtitle: "To kick things off, send us a project to post and receive funding! If you are willing to help further, we encourage you to contribute a donation of your choice to another project."
           submit: Submit project
           bread: THE COLLECTIVE
         start:
           bread: Cadastro
+        backer:
+          bread: Support
         profile:
           bread: Meu Perfil
           submit: Send project
       back_header:
-        title: Oohh yeah!
-        subtitle: You're few steps away from making a difference and becoming part of this project.
+        title: Now that's attitude of those who want a better world!
+        subtitle: Make a difference! Become an active part of this project.
       logo:
         title: Coletivo Social
       pre_header:
