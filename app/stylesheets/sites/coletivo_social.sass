@@ -166,7 +166,77 @@ body#site
           .project_header
             h1
               font-size: 24px !important
+      #project_description
+        #project_share
+          background-color: #B5CCEC
+          +no-shadow
+          +no-radius
+          width: 100%
+          border: none
+        #project_video
+          width: 620px
+          background-color: #000
+          .frame
+            border: 5px solid #000
+          iframe
+            +border-radius(20px, 20px)
+            +no-shadow
       #project_back_info
+        #back_project
+          +no-shadow
+          background-color: #fff
+          border-width: 1px 
+          .info
+            padding: 6px
+          h2
+            +font
+            padding: 10px
+            background-color: $color-blue-head 
+            color: #fff !important
+            text-align: right
+            text-transform: uppercase
+            font-size: 25px !important
+          .number
+            padding: 6px
+            +font
+            font-size: 18px
+            color: #6D6D51
+            text-transform: lowercase
+            span, strong
+              font-weight: 900
+              color: #555
+              text-transform: uppercase
+            span
+              font-size: 24px
+          .project_progress
+            margin: auto
+            margin-bottom: 10px
+            border: none
+            .progress_bar
+              margin: auto
+              border: 2px solid #ddd
+              background-color: #DDD
+              .progress
+                line-height: 14px !important
+          .project_warning.not_successful
+            background-image: none
+            div
+              background-color: #D3C981
+              +no-txt-shadow
+              margin: 0 5px
+          fieldset
+            padding: 0
+          input[type=submit]
+            background: #02BBCF url(coletivo_social/bt.png) 0 0 no-repeat
+            +no-shadow
+            +no-radius
+            color: #fff
+            padding: 10px 5px 10px 15px
+            font-size: 12px
+            text-transform: uppercase
+            font-weight: 400
+            display: block
+            width: 100%
         #rewards
           h1
             color: #fff
@@ -176,7 +246,7 @@ body#site
         input[type=submit]
           background: #02BBCF url(coletivo_social/bt.png) 0 0 no-repeat
           +no-shadow
-          +no-border
+          +no-radius
           color: #fff
           padding: 2px 5px 2px 15px
           font-size: 12px
@@ -190,7 +260,7 @@ body#site
           input
             background-color: #fff
             border: none
-            +no-border
+            +no-radius
             margin-top: 0
           label, .inline-hints
             background-color: transparent
@@ -202,7 +272,7 @@ body#site
         ol
           +no-shadow
         li
-          +no-border
+          +no-radius
           +no-shadow
           padding: 0
           label
@@ -268,11 +338,11 @@ body#site
     background-color: #fff
   .project_box
     padding: 3px
-    +no-border
+    +no-radius
     border: 1px solid #999
     .project_progress
       background-color: #A9AB97
-      +no-border
+      +no-radius
       padding-top: 5px
       .container
         background-color: #6F6E69
@@ -281,7 +351,7 @@ body#site
     .project_wrap
       .project_header 
         .project_image
-          +no-border
+          +no-radius
           height: 150px
     .project_category
       color: $color-blue
@@ -292,13 +362,13 @@ body#site
       border-right: 8px solid rgba(0, 188, 196, 0.7)
       font-size: 18px
   .progress_bar
-    +no-border
+    +no-radius
     border: 3px double #888
     background-color: #787A75
     margin: 0
     .progress
       background-color: #FF961F
-      +no-border
+      +no-radius
   #project_description
     #project_menu
       ul
@@ -467,7 +537,7 @@ body#site
     background-image: url()
 
   #how_it_works, #project_warning, #user_feed #gravatar_hint
-    +no-border
+    +no-radius
     +no-shadow
     +box-blue-orange
     font-size: 12px

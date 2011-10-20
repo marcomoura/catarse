@@ -1,11 +1,15 @@
 .info
-  .number= @project.total_backers
-  #{pluralize_without_number(@project.total_backers, t('.person'))} #{t('.has')} #{pluralize_without_number(@project.total_backers, t('.backed_singular'), t('.backed_plural'))}
-  .number= @project.display_pledged
-  = t('.reached_of')
-  %strong= @project.display_goal
-  #time_to_go.number= @project.time_to_go[:time]
-  #{@project.time_to_go[:unit].capitalize} #{pluralize_without_number(@project.time_to_go[:time], t('remaining_singular'), t('remaining_plural'))}
+  %h2= t("sites.#{current_site.path}.project.info.title")
+  .number
+    %span= @project.total_backers
+    #{pluralize_without_number(@project.total_backers, t('.person'))} #{t('.has')} #{pluralize_without_number(@project.total_backers, t('.backed_singular'), t('.backed_plural'))}
+  .number
+    %span= @project.display_pledged
+    = t('.reached_of')
+    %strong= @project.display_goal
+  #time_to_go.number
+    %span= @project.time_to_go[:time]
+    #{@project.time_to_go[:unit].capitalize} #{pluralize_without_number(@project.time_to_go[:time], t('remaining_singular'), t('remaining_plural'))}
   .project_progress
     .progress_bar
       .progress{ :style => "width: #{ @project.display_percent }%" }

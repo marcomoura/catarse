@@ -7,6 +7,9 @@ en:
       chapeu_more: "See more tips on how %{site}"
   sites:
     coletivo_social:
+      project:
+        info:
+          title: The project
       title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
       subtitle: "Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades."
       content_header:
@@ -23,6 +26,8 @@ en:
           bread: Cadastro
         backer:
           bread: Support
+        project:
+          bread: Project
         profile:
           bread: Meu Perfil
           submit: Send project

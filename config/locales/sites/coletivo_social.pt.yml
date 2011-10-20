@@ -18,6 +18,9 @@ pt:
       submit: Enviar o projeto
   sites:
     coletivo_social:
+      project:
+        info:
+          title: O projeto
       title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
       subtitle: "Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades."
       content_header:
@@ -34,6 +37,8 @@ pt:
           bread: Cadastro
         backer:
           bread: Apoiar
+        project:
+          bread: Projeto
         profile:
           bread: Meu Perfil
         explore:
@@ -99,6 +104,12 @@ pt:
       press:
         title: Confira o que estão falando do Catarse na imprensa
       projects:
+        back_project:
+          person: Pessoa
+          has: já
+          backed_singular: apoiou
+          backed_plural: apoiaram
+          reached_of: Atingidos de
         home_page_projects:
           title: Projetos recomendados
           subtitle: Conheça os projetos que nos causaram uma Catarse :) cada dia uma nova seleção.

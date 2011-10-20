@@ -9,3 +9,4 @@
     - if @project.site != current_site
       = link_to @project.site.full_url, :target => :_blank do
         = image_tag "sites/#{@project.site.path}/badge_site.#{I18n.locale}.png", :id => 'badge'
+    .bread= t("sites.#{current_site.path}.content_header.project.bread")

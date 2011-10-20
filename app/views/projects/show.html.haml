@@ -3,7 +3,8 @@
 = render 'project_warning'
 #project_description
   #project_video
-    %iframe{:src => "#{@project.video_embed_url}?title=0&amp;byline=0&amp;portrait=0&amp", :width => "610", :height => "346"}
+    .frame
+      %iframe{:src => "#{@project.video_embed_url}?title=0&amp;byline=0&amp;portrait=0&amp", :width => "610", :height => "346"}
     #project_share
       #facebook_share= render 'facebook'
       #twitter_share= render 'twitter'
