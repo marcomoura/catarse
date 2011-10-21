@@ -167,6 +167,24 @@ body#site
             h1
               font-size: 24px !important
       #project_description
+        #project_content, #project_menu
+          border: 5px solid #999
+          +border-radius(10px, 10px)
+        #project_content
+          border-top: none
+        #project_menu
+          border-bottom: none
+          ul
+            li
+              a
+                background-color: #F8C181
+                color: #fff
+                font-size: 18px
+                padding: 10px 25px
+            li.selected
+              a
+                background-color: #Fff
+                color: #F8C181
         #project_share
           background-color: #B5CCEC
           +no-shadow
@@ -188,7 +206,7 @@ body#site
           border-width: 1px 
           .info
             padding: 6px
-          h2
+          h1, h2
             +font
             padding: 10px
             background-color: $color-blue-head 

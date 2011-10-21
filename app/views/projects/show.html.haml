@@ -28,17 +28,14 @@
       %li
         = link_to '#updates', :id => 'updates_link' do
           = t('.menu.updates')
-          %span.count (#{@updates.count})
           = image_tag "sites/#{current_site.path}/project_menu_selected.png"
       %li
         = link_to '#backers', :id => 'backers_link' do
           = t('.menu.backers')
-          %span.count (#{@project.total_backers})
           = image_tag "sites/#{current_site.path}/project_menu_selected.png"
       %li
         = link_to '#comments', :id => 'comments_link' do
           = t('.menu.comments')
-          %span.count (#{@comments.count})
           = image_tag "sites/#{current_site.path}/project_menu_selected.png"
   #project_content
   #loading= image_tag "sites/#{current_site.path}/loading.gif"
