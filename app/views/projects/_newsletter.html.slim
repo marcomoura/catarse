@@ -1,0 +1,15 @@
+.newsletter
+  h2= t('.newsletter.title')
+  p= t('.newsletter.subtitle')
+  form
+    label
+      nome
+      input{name: title}
+    label
+      email
+      input{email: title}
+    span= t('.newsletter.obs')
+    span= t('.newsletter.email')
+    input{type: submit}
+
+    

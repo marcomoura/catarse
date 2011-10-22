@@ -23,7 +23,7 @@
     %ul
       %li
         = link_to '#about', :id => 'about_link' do
-          = t('.menu.about')
+          = t("sites.#{current_site.path}.menu.about")
           = image_tag "sites/#{current_site.path}/project_menu_selected.png"
       %li
         = link_to '#updates', :id => 'updates_link' do
@@ -31,7 +31,7 @@
           = image_tag "sites/#{current_site.path}/project_menu_selected.png"
       %li
         = link_to '#backers', :id => 'backers_link' do
-          = t('.menu.backers')
+          = t("sites.#{current_site.path}.menu.backers")
           = image_tag "sites/#{current_site.path}/project_menu_selected.png"
       %li
         = link_to '#comments', :id => 'comments_link' do

@@ -50,6 +50,8 @@ en:
       index_meta_tags:
         description: Make the projects you believe in happen! Fund projects in a collaborative manner and become part of something bigger. Join everyone who wants to see a project happening and make it come true. You're the missing part in this story.
       menu:
+        about: The project
+        about: Collaborator
         explore: The projects
         submit: Add project
         signup: Signup

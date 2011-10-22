@@ -169,22 +169,38 @@ body#site
       #project_description
         #project_content, #project_menu
           border: 5px solid #999
-          +border-radius(10px, 10px)
-        #project_content
-          border-top: none
+          +border-radius(10px 10px 0 0)
         #project_menu
-          border-bottom: none
+          border-width: 5px 5px 0 0
+        #project_content
+          +border-radius(0px 0px 10px 10px)
+          border-top: 0
+          #project_about
+            width: auto
+            padding: 30px
+            color: #555
+            background-color: #fff
+        #project_menu
+          +border-radius(10px 10px 0px 0px)
           ul
+
+            background-color: #999
+            padding: 0 5px !important
             li
               a
+                width: 145px
+                padding: 10px 0
+                display: block
+                float: left
                 background-color: #F8C181
                 color: #fff
-                font-size: 18px
-                padding: 10px 25px
+                font-size: 12px
+                margin: 0
             li.selected
               a
                 background-color: #Fff
                 color: #F8C181
+                +no-txt-shadow
         #project_share
           background-color: #B5CCEC
           +no-shadow
@@ -200,6 +216,11 @@ body#site
             +border-radius(20px, 20px)
             +no-shadow
       #project_back_info
+        #rewards
+          border: 1px solid #aaa
+          h1
+            background-color: #84AFB5
+            color: #fff !important
         #back_project
           +no-shadow
           background-color: #fff
@@ -320,6 +341,12 @@ body#site
         .image
           img
             +no-shadow
+      .text
+        width: 75%
+        float: left
+      .newsletter
+        width: 23%
+        float: right
   #project_header
     h1
       padding-left: 0 !important
@@ -389,9 +416,12 @@ body#site
       +no-radius
   #project_description
     #project_menu
+      +border-radius(10px 10px 0px 0px)
       ul
         li
+          padding-bottom: 0
           a
+            +border-radius(10px 10px 0px 0px)
             &:hover
               background-color: rgb(104,168,82)
           &.selected
@@ -461,6 +491,7 @@ body#site
           +linear-gradient(color_stops(#bbb,#888))
 
   #footer
+    clear: both
     background-color: #82A7FF
     color: #fff
     padding: 0px 0 10px 0
