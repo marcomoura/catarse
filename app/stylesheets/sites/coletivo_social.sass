@@ -585,13 +585,15 @@ body#site
   #gravatar_hint
     background-image: url()
 
-  #how_it_works, #project_warning, #user_feed #gravatar_hint
+  #how_it_works, #project_warning, #user_feed #gravatar_hint, #companies .hint
     +no-radius
     +no-shadow
     +box-blue-orange
     font-size: 12px
     line-height: 14px
     text-align: left
+    padding: 20px 10px
+    margin-bottom: 20px
     #show-tips
       a
         color: #fff
@@ -610,3 +612,12 @@ body#site
   .on_the_spot_editing
     &:after
       content: " " url("coletivo_social/pencil.png")
+  #companies
+    background-color: #fff
+    .logos
+      img
+        padding: 5px
+        width: 250px
+        height: 250px
+        border: 10px solid #efefef
+        margin: 10px 

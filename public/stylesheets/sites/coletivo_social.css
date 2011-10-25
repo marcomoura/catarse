@@ -1097,7 +1097,7 @@ body#site #gravatar_hint {
   background-image: url();
 }
 /* line 588, ../../../app/stylesheets/sites/coletivo_social.sass */
-body#site #how_it_works, body#site #project_warning, body#site #user_feed #gravatar_hint {
+body#site #how_it_works, body#site #project_warning, body#site #user_feed #gravatar_hint, body#site #companies .hint {
   -webkit-border-radius: 0px 0px;
   -moz-border-radius: 0px / 0px;
   -o-border-radius: 0px / 0px;
@@ -1114,12 +1114,14 @@ body#site #how_it_works, body#site #project_warning, body#site #user_feed #grava
   font-size: 12px;
   line-height: 14px;
   text-align: left;
+  padding: 20px 10px;
+  margin-bottom: 20px;
 }
-/* line 596, ../../../app/stylesheets/sites/coletivo_social.sass */
-body#site #how_it_works #show-tips a, body#site #project_warning #show-tips a, body#site #user_feed #gravatar_hint #show-tips a {
+/* line 598, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #how_it_works #show-tips a, body#site #project_warning #show-tips a, body#site #user_feed #gravatar_hint #show-tips a, body#site #companies .hint #show-tips a {
   color: white;
 }
-/* line 599, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 601, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site p#copyright {
   border-top: 3px solid rgba(255, 255, 255, 0.2);
   padding-top: 10px;
@@ -1127,15 +1129,27 @@ body#site p#copyright {
   margin: 0 auto;
   text-align: center;
 }
-/* line 606, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 608, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site p#copyright img {
   width: 10px;
 }
-/* line 608, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 610, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site p#copyright a {
   text-width: 900;
 }
-/* line 611, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 613, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .on_the_spot_editing:after {
   content: " " url("coletivo_social/pencil.png");
+}
+/* line 615, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #companies {
+  background-color: white;
+}
+/* line 618, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #companies .logos img {
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  border: 10px solid #efefef;
+  margin: 10px;
 }

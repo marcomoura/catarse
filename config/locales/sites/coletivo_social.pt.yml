@@ -24,6 +24,15 @@ pt:
       title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
       subtitle: "Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades."
       content_header:
+        companies:
+          title: "Seja uma empresa responsável!"
+          subtitle: "Confira abaixo todas as empresas-amigas do Coletivo"
+          bread: Empresas
+          parag: "Saiba como tornar-se uma empresa-amiga do Coletivo Social. Você pode contribuir de diversas maneiras. %{link} para mais informações."
+        about:
+          title: Quem fez e faz acontecer no Coletivo!
+          subtitle: "Aqui você sabe um pouco mais sobre a nossa equipe. <br> Pessoas que trabalham para que o nosso coletivo gere cada vez mais frutos."
+          bread: Quem somos
         faq:
           title: "Ficou com albuma dúvida?"
           subtitle: "Nessa página você vai esclarecer suas dúvidas e aprender mais sobre o nosso site de contribuição voluntária. Segue abaixo uma lista cm as principais perguntas e respostas sobre o Coletivo Social e o seu funcionamento."

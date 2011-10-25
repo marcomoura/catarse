@@ -9,7 +9,7 @@
 
     %ul
       %li= t('.shop') 
-      %li= t('.businnes')
+      %li= link_to t('.businnes'), companies_path
 
     %ul
       %li= mail_to current_site.email, t('.email')
