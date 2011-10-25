@@ -24,6 +24,8 @@ pt:
       title: 'Coletivo Social é de todo mundo e o primeiro website de contribuição volutária em grupo.'
       subtitle: "Destinado exclusivamente a projetos sociais para a melhoria da qualidade de vida de pessoas e comunidades."
       content_header:
+        credits:
+          bread: "CRÉDITOS"
         companies:
           title: "Seja uma empresa responsável!"
           subtitle: "Confira abaixo todas as empresas-amigas do Coletivo"

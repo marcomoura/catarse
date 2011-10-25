@@ -1,6 +1,7 @@
 = content_for :content_header do
   %h1= t('.title')
   %h2= t('.subtitle')
+  .bread= t("sites.#{current_site.path}.content_header.credits.bread")
 #credits
   %h1= t('.current_credits_html', :credits => current_user.display_credits)
   -#buy_credits
