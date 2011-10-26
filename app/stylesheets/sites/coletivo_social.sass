@@ -352,11 +352,21 @@ body#site
       h1
         background-color: #FDF6EC
         font-size: 32px !important
-        padding-right: 100px
+        padding-left: 100px 
         span
           color: $color-orange 
       h2
         color: $color-orange !important
+    .video
+      display: inline
+      width: 640px
+      height: 280px
+    .banner
+      border: 1px solid #999
+      float: right
+      width: 300px
+      height: 250px
+      text-align: center
   #project_header
     h1
       padding-left: 0 !important
@@ -636,10 +646,15 @@ body#site
       height: 200px
       border: 1px solid red
       margin-bottom: 20px
-    .hint
-      background-color: #000
-      border: none
-      color: $color-blue !important
-      font-size: 24px
-      text-transform: uppercase
-      font-weight: 900
+    .video
+      iframe
+        background-color: #000
+        width: 100%
+      .hint
+        background-color: #000
+        border: none
+        color: $color-blue !important
+        font-size: 24px
+        text-transform: uppercase
+        font-weight: 900
+        margin-bottom: 0

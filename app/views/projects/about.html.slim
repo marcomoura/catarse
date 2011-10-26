@@ -1,0 +1,11 @@
+= content_for :content_header do
+  h1= t("sites.#{current_site.path}.content_header.about.title")
+  h2= raw t("sites.#{current_site.path}.content_header.about.subtitle")
+  .bread= t("sites.#{current_site.path}.content_header.about.bread")
+#about
+  .img
+    | imagem
+  .video
+    p.hint= t("sites.#{current_site.path}.content_header.about.parag")
+    iframe src="http://player.vimeo.com/video/31059830" width="920" height="580"
+
