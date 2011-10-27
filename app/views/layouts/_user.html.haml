@@ -1,7 +1,7 @@
 #user
   = link_to '#', :id => 'user_menu_link' do
-    = image_tag current_user.display_image, :id => 'display_image'
     = truncate current_user.display_name, :length => 24
+    = image_tag current_user.display_image, :id => 'display_image'
     = image_tag 'dropdown.png', :class => 'dropdown'
   #user_menu.hide
     %ul

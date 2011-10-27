@@ -9,7 +9,6 @@
       #header_wrapper
         #header
           = render :partial => "/sites/#{current_site.path}/logo"
-          = render '/layouts/user' if current_user
       = render :partial => "/sites/#{current_site.path}/menu"
       #content_wrapper
         - unless is_homepage?

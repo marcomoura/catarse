@@ -30,7 +30,40 @@ body#site
         color: #E69C45
   #main
     width: 100%
-  #pre_header
+  .back_office
+    padding: 0
+  #user
+    line-height: 32px
+    a
+      padding: 0
+    #user_menu_link, .hover
+      background-color: #54523A
+      color: #F3C080
+      font-weight: 400
+      +no-radius
+      font-size: 12px
+      padding: 0 5px
+    #user_menu_link
+      img
+        +no-shadow
+        vertical-align: middle
+        margin: 0 10px
+    #user_menu
+      background-color: #00B9CB
+      +no-radius
+      color: #fff
+      +no-text-shadow
+      top: 36px
+      font-size: 12px
+      padding: 0 2px 
+      width: 100%
+      ul
+        li
+          border-bottom: 2px solid #4BCBD8
+          a
+            color: #fff
+            +no-text-shadow
+    #pre_header
     background-color: #6C714E
     #content_header
       +float-left
@@ -201,7 +234,7 @@ body#site
               a
                 background-color: #Fff
                 color: #F8C181
-                +no-txt-shadow
+                +no-text-shadow
         #project_share
           background-color: #B5CCEC
           +no-shadow
@@ -265,7 +298,7 @@ body#site
             background-image: none
             div
               background-color: #D3C981
-              +no-txt-shadow
+              +no-text-shadow
               margin: 0 5px
           fieldset
             padding: 0
@@ -295,7 +328,7 @@ body#site
           font-size: 12px
           text-transform: uppercase
           font-weight: 400
-          +no-txt-shadow
+          +no-text-shadow
       #back_options
         #backer_value_input
           +box-blue-orange
