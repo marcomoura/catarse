@@ -1,6 +1,7 @@
 #pre_header
-  %div{ :class => "back_notice"}
-    = render '/layouts/user' if current_user
-  .clear
-- else
-  = render :partial => "/sites/#{current_site.path}/pre_header"
+  -if current_user
+    %div{ :class => "back_notice"}
+      = render '/layouts/user' 
+    .clear
+  - else
+    = render :partial => "/sites/#{current_site.path}/pre_header"
