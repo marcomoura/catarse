@@ -10,6 +10,9 @@
         #header
           = render :partial => "/sites/#{current_site.path}/logo"
       = render :partial => "/sites/#{current_site.path}/menu"
+      - if is_homepage?
+        #content_carousel
+          = yield :content_carousel
       #content_wrapper
         - unless is_homepage?
           #content_header_wrapper
