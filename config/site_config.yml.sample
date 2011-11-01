@@ -2,6 +2,10 @@ development: &default
   mailer:
     from: "sample <sample@sample.com>"
     to: sample@sample.com
+  share:
+    twitter: twitt_page
+    facebook: face_page
+    blog:  blog_page
 
 test:
   << *default

@@ -1,4 +1,3 @@
-=# render :partial => "/sites/#{current_site.path}/index_header"
 = render :partial => "/sites/#{current_site.path}/index_meta_tags"
 = render :partial => "/sites/#{current_site.path}/carousel"
 = render :partial => "/sites/#{current_site.path}/promo_top"
@@ -8,8 +7,4 @@
 = render :partial => 'project_list', :locals => {:quick => "successful", :collection => @successful} unless @successful.empty?
 = render :partial => 'curated_pages_list', :locals => {:curated_pages => @curated_pages} unless @curated_pages.empty?
 .clear
-=# render :partial => "/sites/#{current_site.path}/promo_video"
-=# render :partial => "/sites/#{current_site.path}/press"
-= javascript_include_tag 'slider'
-= javascript_include_tag 'press'
-= javascript_include_tag 'root'
+= javascript_include_tag 'slider', 'press' ,'root'

@@ -11,7 +11,7 @@ class Site < ActiveRecord::Base
   has_many :users
   
   def self.auth_gateway
-    where(:auth_gateway => true).first
+    where(:auth_gateway => true).last
   end
   
   def full_url(path = "")

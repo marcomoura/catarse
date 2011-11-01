@@ -33,10 +33,6 @@
         = link_to '#backers', :id => 'backers_link' do
           = t("sites.#{current_site.path}.menu.backers")
           = image_tag "sites/#{current_site.path}/project_menu_selected.png"
-      %li
-        = link_to '#comments', :id => 'comments_link' do
-          = t('.menu.comments')
-          = image_tag "sites/#{current_site.path}/project_menu_selected.png"
   #project_content
   #loading= image_tag "sites/#{current_site.path}/loading.gif"
 = render :partial => 'back_info'
@@ -44,7 +40,6 @@
 = render :partial => 'project_backers'
 = render :partial => 'backer'
 = render :partial => 'project_comments'
-= render :partial => 'comment'
 = render :partial => 'project_updates'
 = render :partial => 'update'
 = render :partial => 'error'
@@ -53,7 +48,6 @@
 = javascript_include_tag 'models/paginated_collection'
 = javascript_include_tag 'models/project_collection'
 = javascript_include_tag 'models/backer'
-= javascript_include_tag 'models/comment'
 = javascript_include_tag 'models/update'
 = javascript_include_tag 'controllers/project'
 = javascript_include_tag 'views/project/content'
@@ -62,7 +56,6 @@
 = javascript_include_tag 'views/project/about'
 = javascript_include_tag 'views/project/backer'
 = javascript_include_tag 'views/project/project_backers'
-= javascript_include_tag 'views/project/comment'
 = javascript_include_tag 'views/project/project_comments'
 = javascript_include_tag 'views/project/update'
 = javascript_include_tag 'views/project/project_updates'

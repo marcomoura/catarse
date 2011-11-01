@@ -2,3 +2,8 @@
   #back_project= render :partial => 'back_project'
   #rewards= render :partial => 'rewards'
 .clear
+
+.comments
+  h3= "Comentários"
+  fb:comments href="#{request.url}" num_posts="4" width="620"
+.clear

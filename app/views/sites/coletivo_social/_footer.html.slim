@@ -24,15 +24,15 @@
   #social_menu
     ul
       li
-        = link_to "http://twitter.com/#{current_site.twitter}", :target => :_blank, :id => 'twitter' do
+        = link_to "http://twitter.com/#{SITE_CONFIG['share']['twitter']}", :target => :_blank, :id => 'twitter' do
           = image_tag('social/twitter_32.png', :title => "Twitter")
           = t('.twitter')
       li
-        = link_to current_site.facebook, :target => :_blank , :id => 'facebook' do
+        = link_to "http://www.facebook.com/#{SITE_CONFIG['share']['facebook']}", :target => :_blank , :id => 'facebook' do
           = image_tag('social/facebook_32.png', :title => "Facebook")
           = raw t('.facebook')
       li
-        = link_to current_site.blog, :target => :_blank , :id => 'blog' do
+        = link_to "http://#{SITE_CONFIG['share']['blog']}", :target => :_blank , :id => 'blog' do
           = image_tag('social/rss_32.png', :title => "Blog")
           = t('.blog')
 p#copyright

@@ -18,6 +18,10 @@ pt:
       submit: Enviar o projeto
   sites:
     coletivo_social:
+      home:
+        our:
+          video: "Nosso vídeo"
+          mission: "Entenda nossa missão"
       project:
         info:
           title: O projeto

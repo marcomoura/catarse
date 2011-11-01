@@ -7,6 +7,10 @@ en:
       chapeu_more: "See more tips on how %{site}"
   sites:
     coletivo_social:
+      home:
+        our:
+          video: "Our video"
+          mission: "Entenda nossa missão"
       project:
         info:
           title: The project
