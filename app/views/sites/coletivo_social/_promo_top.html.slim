@@ -1,7 +1,7 @@
 .our_video
   h2= t("sites.#{current_site.path}.home.our.video")
   .body
-    img src='our_video.jpg' width=635 height=245
+    =image_tag "sites/#{current_site.path}/our_video.jpg", :width=>635, :height=>245
     p= t("sites.#{current_site.path}.home.our.mission")
 
 .banner
