@@ -18,6 +18,9 @@ pt:
       submit: Enviar o projeto
   sites:
     coletivo_social:
+      rewards:
+        title: "GRATIFICAÇÕES"
+        reward_title: %{minimum} ou mais
       home:
         our:
           video: "Nosso vídeo"

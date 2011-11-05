@@ -316,12 +316,13 @@ body#site
               background-color: #DDD
               .progress
                 line-height: 14px !important
-          .project_warning.not_successful
-            background-image: none
-            div
-              background-color: #D3C981
-              +no-text-shadow
-              margin: 0 5px
+          .project_warning
+            &.not_successful, &.successful
+              background-image: none
+              div
+                background-color: #D3C981
+                +no-text-shadow
+                margin: 0 5px
           fieldset
             padding: 0
           input[type=submit]
@@ -336,10 +337,28 @@ body#site
             display: block
             width: 100%
         #rewards
+          padding: 5px
+          border-color: #bbb
           h1
             color: #fff
-          ul li h1
-            color: #222
+            background-color: #84AFB5 !important
+            border-right: 5px solid #00BCCF
+            text-align: right
+            +no-text-shadow
+            font-size: 24px !important
+            padding-right: 5px
+          ul 
+            border: none
+            li 
+              padding: 20px 0
+              .desc
+                color: #555
+                padding: 20px
+              h1
+                padding: 10px 5px 
+                color: #222
+          .reward_backers
+            color: $color-blue
       form
         input[type=submit]
           background: #02BBCF url(coletivo_social/bt.png) 0 0 no-repeat
