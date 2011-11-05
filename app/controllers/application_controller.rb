@@ -73,7 +73,7 @@ class ApplicationController < ActionController::Base
     site_host = request.host.gsub "www.", ""
     @current_site = Site.find_by_host site_host
     @current_site = Site.find_by_path("catarse") unless @current_site
-    @current_site = Factory(:site, :name => "Catarse", :path => "catarse") unless @current_site
+    @current_site = Factory(:site, :name => "Coletivo Social", :path => "coletivo_social") unless @current_site
     @current_site
   end
 

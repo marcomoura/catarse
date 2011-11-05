@@ -359,7 +359,7 @@ body#site #content_wrapper #content #user_feed div {
 }
 /* line 204, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #user_feed ul li {
-  margin: 0;
+  margin: 0 0 10px;
 }
 /* line 207, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content .project_box strong {
@@ -446,10 +446,10 @@ body#site #content_wrapper #content #project_description #project_share {
   border-radius: 0px / 0px;
   width: 100%;
   border: none;
+  padding-top: 10px;
 }
-/* line 253, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 254, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_description #project_share li {
-  background-color: #7f91bf;
   border-right: 5px solid #b5ccec;
   font-size: 12px;
   color: white;
@@ -466,16 +466,53 @@ body#site #content_wrapper #content #project_description #project_share li a {
   font-size: 12px;
   line-height: 12px;
 }
-/* line 266, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 267, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #content_wrapper #content #project_description #project_share ul.links li {
+  background-color: #f2f3eb;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  -o-border-radius: 4px / 4px;
+  -ms-border-radius: 4px / 4px;
+  -khtml-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  line-height: 12px;
+  font-size: 12px;
+  color: #999999;
+  border: none;
+  margin: 0 10px 10px 0;
+}
+/* line 276, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #content_wrapper #content #project_description #project_share ul.shares li {
+  background-color: #7f91bf;
+}
+/* line 278, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #content_wrapper #content #project_description #project_share #facebook_share, body#site #content_wrapper #content #project_description #project_share #twitter_share {
+  width: 60px;
+  float: left;
+  height: auto;
+  margin: 0 10px;
+  padding: 0;
+}
+/* line 284, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #content_wrapper #content #project_description #project_share #facebook_share iframe, body#site #content_wrapper #content #project_description #project_share #twitter_share iframe {
+  -webkit-border-radius: 0px 0px;
+  -moz-border-radius: 0px / 0px;
+  -o-border-radius: 0px / 0px;
+  -ms-border-radius: 0px / 0px;
+  -khtml-border-radius: 0px / 0px;
+  border-radius: 0px / 0px;
+  margin: 0;
+}
+/* line 287, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_description #project_video {
   width: 620px;
   background-color: black;
 }
-/* line 269, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 290, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_description #project_video .frame {
   border: 5px solid black;
 }
-/* line 271, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 292, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_description #project_video iframe {
   -webkit-border-radius: 20px 20px;
   -moz-border-radius: 20px / 20px;
@@ -488,16 +525,16 @@ body#site #content_wrapper #content #project_description #project_video iframe {
   -o-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
-/* line 275, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 296, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards {
   border: 1px solid #aaaaaa;
 }
-/* line 277, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 298, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards h1 {
   background-color: #84afb5;
   color: white !important;
 }
-/* line 280, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 301, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project {
   -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
@@ -506,16 +543,16 @@ body#site #content_wrapper #content #project_back_info #back_project {
   background-color: white;
   border-width: 1px;
 }
-/* line 284, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 305, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .text {
   width: auto;
   float: none;
 }
-/* line 287, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 308, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .info {
   padding: 6px;
 }
-/* line 289, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 310, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project h1, body#site #content_wrapper #content #project_back_info #back_project h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 10px;
@@ -525,7 +562,7 @@ body#site #content_wrapper #content #project_back_info #back_project h1, body#si
   text-transform: uppercase;
   font-size: 25px !important;
 }
-/* line 297, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 318, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .number {
   padding: 6px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -533,47 +570,47 @@ body#site #content_wrapper #content #project_back_info #back_project .number {
   color: #6d6d51;
   text-transform: lowercase;
 }
-/* line 303, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 324, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .number span, body#site #content_wrapper #content #project_back_info #back_project .number strong {
   font-weight: 900;
   color: #555555;
   text-transform: uppercase;
 }
-/* line 307, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 328, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .number span {
   font-size: 24px;
 }
-/* line 309, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 330, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .project_progress {
   margin: auto;
   margin-bottom: 10px;
   border: none;
 }
-/* line 313, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 334, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .project_progress .progress_bar {
   margin: auto;
   border: 2px solid #dddddd;
   background-color: #dddddd;
 }
-/* line 317, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 338, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .project_progress .progress_bar .progress {
   line-height: 14px !important;
 }
-/* line 320, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 341, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .project_warning.not_successful, body#site #content_wrapper #content #project_back_info #back_project .project_warning.successful {
   background-image: none;
 }
-/* line 322, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 343, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project .project_warning.not_successful div, body#site #content_wrapper #content #project_back_info #back_project .project_warning.successful div {
   background-color: #d3c981;
   text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
   margin: 0 5px;
 }
-/* line 326, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 347, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project fieldset {
   padding: 0;
 }
-/* line 328, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 349, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #back_project input[type=submit] {
   background: #02bbcf url(coletivo_social/bt.png) 0 0 no-repeat;
   -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
@@ -594,12 +631,12 @@ body#site #content_wrapper #content #project_back_info #back_project input[type=
   display: block;
   width: 100%;
 }
-/* line 339, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 360, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards {
   padding: 5px;
   border-color: #bbbbbb;
 }
-/* line 342, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 363, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards h1 {
   color: white;
   background-color: #84afb5 !important;
@@ -609,31 +646,31 @@ body#site #content_wrapper #content #project_back_info #rewards h1 {
   font-size: 24px !important;
   padding-right: 5px;
 }
-/* line 350, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 371, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards ul {
   border: none;
 }
-/* line 352, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 373, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards ul li {
   padding: 20px 0;
 }
-/* line 354, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 375, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards ul li .desc {
   color: #555555;
   padding: 20px;
   font-size: 14px;
 }
-/* line 358, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 379, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards ul li h1 {
   padding: 10px 5px;
   color: #222222;
 }
-/* line 361, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 382, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #project_back_info #rewards .reward_backers {
   color: #00bbc9;
   padding: 0 20px;
 }
-/* line 365, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 386, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content form input[type=submit] {
   background: #02bbcf url(coletivo_social/bt.png) 0 0 no-repeat;
   -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
@@ -653,14 +690,14 @@ body#site #content_wrapper #content form input[type=submit] {
   font-weight: 400;
   text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
 }
-/* line 376, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 397, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_options #backer_value_input {
   border-right: 7px solid #f8c181;
   background-color: #03bacc;
   color: white !important;
   padding: 0 20px;
 }
-/* line 379, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 400, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_options #backer_value_input input {
   background-color: white;
   border: none;
@@ -672,27 +709,27 @@ body#site #content_wrapper #content #back_options #backer_value_input input {
   border-radius: 0px / 0px;
   margin-top: 0;
 }
-/* line 384, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 405, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_options #backer_value_input label, body#site #content_wrapper #content #back_options #backer_value_input .inline-hints {
   background-color: transparent;
   color: white;
 }
-/* line 387, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 408, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_options #backer_value_input label {
   font-weight: 900;
 }
-/* line 389, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 410, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_options #backer_value_input .inline-hints {
   font-size: 12px;
 }
-/* line 391, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 412, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_options ol {
   -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -o-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
-/* line 393, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 414, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_options li {
   -webkit-border-radius: 0px 0px;
   -moz-border-radius: 0px / 0px;
@@ -706,14 +743,14 @@ body#site #content_wrapper #content #back_options li {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   padding: 0;
 }
-/* line 397, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 418, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_options li label {
   -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -o-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
-/* line 399, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 420, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_info {
   font-size: 12px;
   line-height: 16px;
@@ -721,7 +758,7 @@ body#site #content_wrapper #content #back_info {
   padding-left: 10px;
   border-left: 1px dotted #777777;
 }
-/* line 405, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 426, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_info #project_info {
   background-color: #84afb5;
   padding: 20px 20px 5px;
@@ -730,16 +767,16 @@ body#site #content_wrapper #content #back_info #project_info {
   display: block;
   border-right: 7px solid #f8c181;
 }
-/* line 411, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 432, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_info #project_info .project_owner, body#site #content_wrapper #content #back_info #project_info .project_expires_at, body#site #content_wrapper #content #back_info #project_info a {
   color: white;
 }
-/* line 413, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 434, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_info #project_info .project_expires_at {
   font-size: 12px;
   font-weight: 400;
 }
-/* line 416, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 437, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #back_info #project_info img {
   display: inline;
   float: right;
@@ -749,31 +786,31 @@ body#site #content_wrapper #content #back_info #project_info img {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   border: 1px solid white;
 }
-/* line 422, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 443, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content #profile_header .image img {
   -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -o-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
-/* line 424, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 445, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content .text {
   width: 75%;
   float: left;
 }
-/* line 427, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 448, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content .newsletter {
   width: 23%;
   float: right;
 }
-/* line 430, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 451, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content .our_video {
   position: relative;
   width: 635px;
   float: left;
   margin-bottom: 20px;
 }
-/* line 435, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 456, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content .our_video h2 {
   background-color: #666a45;
   color: white !important;
@@ -786,42 +823,48 @@ body#site #content_wrapper #content .our_video h2 {
   text-transform: uppercase;
   padding: 10px 15px;
 }
-/* line 441, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 462, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content .our_video img {
   width: 635px;
   height: 245px;
 }
-/* line 444, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 465, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #content .our_video p {
   position: absolute;
   margin-top: -34px;
   background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 0;
+}
+/* line 471, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #content_wrapper #content .our_video p a {
   color: #00bbc9;
-  width: 605px;
   padding: 3px 15px;
   font-size: 18px;
+  text-decoration: none;
+  display: block;
 }
-/* line 453, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 478, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #credits h1 {
   background-color: #fdf6ec;
   font-size: 32px !important;
   padding-left: 100px;
 }
-/* line 457, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 482, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #credits h1 span {
   color: #f29113;
 }
-/* line 459, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 484, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper #credits h2 {
   color: #f29113 !important;
 }
-/* line 461, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 486, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper .video {
   display: inline;
   width: 640px;
   height: 280px;
 }
-/* line 465, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 490, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #content_wrapper .banner {
   border: 1px solid #999999;
   float: right;
@@ -829,48 +872,48 @@ body#site #content_wrapper .banner {
   height: 250px;
   text-align: center;
 }
-/* line 472, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 497, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_header h1 {
   padding-left: 0 !important;
 }
-/* line 474, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 499, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_header h1 .on_the_spot_mouseover {
   background-color: #2b6e18;
   background-color: rgba(43, 110, 24, 0.5);
 }
-/* line 477, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 502, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_header h2 {
   padding-bottom: 4px !important;
 }
-/* line 479, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 504, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #index_header {
   position: relative;
 }
-/* line 481, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 506, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #index_header #index_share {
   margin-top: -90px;
   display: inline;
   float: right;
   width: 224px;
 }
-/* line 485, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 510, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #index_header #index_share iframe {
   width: 180px !important;
 }
-/* line 488, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 513, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #index_header #index_share span.fb_iframe_widget iframe {
   width: 401px !important;
 }
-/* line 490, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 515, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #index_header #index_share iframe.twitter-follow-button {
   margin-top: 4px;
   width: 224px !important;
 }
-/* line 493, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 518, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #index_header #index_share iframe.twitter-share-button {
   margin-top: 8px;
 }
-/* line 495, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 520, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .project_list_header {
   color: #00bbc9;
   font-size: 32px;
@@ -881,11 +924,11 @@ body#site .project_list_header {
   padding: 10px 20px 10px;
   clear: both;
 }
-/* line 504, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 529, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .project_list_header, body#site .project_list_wrapper {
   background-color: white;
 }
-/* line 506, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 531, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .project_box {
   padding: 3px;
   -webkit-border-radius: 0px 0px;
@@ -896,7 +939,7 @@ body#site .project_box {
   border-radius: 0px / 0px;
   border: 1px solid #999999;
 }
-/* line 510, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 535, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .project_box .project_progress {
   background-color: #a9ab97;
   -webkit-border-radius: 0px 0px;
@@ -907,13 +950,13 @@ body#site .project_box .project_progress {
   border-radius: 0px / 0px;
   padding-top: 5px;
 }
-/* line 514, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 539, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .project_box .project_progress .container {
   background-color: #6f6e69;
   margin: 0 5px 10px;
   padding: 3px 0 3px 30px;
 }
-/* line 520, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 545, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .project_box .project_wrap .project_header .project_image {
   -webkit-border-radius: 0px 0px;
   -moz-border-radius: 0px / 0px;
@@ -923,7 +966,7 @@ body#site .project_box .project_wrap .project_header .project_image {
   border-radius: 0px / 0px;
   height: 150px;
 }
-/* line 523, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 548, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .project_box .project_category {
   color: #00bbc9;
   background: rgba(0, 0, 0, 0.5) url(coletivo_social/heart.png) no-repeat -2px -2px;
@@ -933,7 +976,7 @@ body#site .project_box .project_category {
   border-right: 8px solid rgba(0, 188, 196, 0.7);
   font-size: 18px;
 }
-/* line 531, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 556, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .progress_bar {
   -webkit-border-radius: 0px 0px;
   -moz-border-radius: 0px / 0px;
@@ -945,7 +988,7 @@ body#site .progress_bar {
   background-color: #787a75;
   margin: 0;
 }
-/* line 536, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 561, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .progress_bar .progress {
   background-color: #ff961f;
   -webkit-border-radius: 0px 0px;
@@ -955,7 +998,7 @@ body#site .progress_bar .progress {
   -khtml-border-radius: 0px / 0px;
   border-radius: 0px / 0px;
 }
-/* line 540, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 565, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_description #project_menu {
   -moz-border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
@@ -964,11 +1007,11 @@ body#site #project_description #project_menu {
   -khtml-border-radius: 10px 10px 0px 0px;
   border-radius: 10px 10px 0px 0px;
 }
-/* line 543, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 568, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_description #project_menu ul li {
   padding-bottom: 0;
 }
-/* line 545, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 570, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_description #project_menu ul li a {
   -moz-border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
@@ -977,21 +1020,21 @@ body#site #project_description #project_menu ul li a {
   -khtml-border-radius: 10px 10px 0px 0px;
   border-radius: 10px 10px 0px 0px;
 }
-/* line 547, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 572, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_description #project_menu ul li a:hover {
   background-color: #68a852;
 }
-/* line 550, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 575, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_description #project_menu ul li.selected a {
   background-color: #498c36;
 }
-/* line 552, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 577, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .explore_more {
   background-color: white;
   margin: 0;
   padding: 0 10px;
 }
-/* line 556, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 581, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .explore_more hr {
   opacity: 1;
   margin: 0;
@@ -1000,12 +1043,12 @@ body#site .explore_more hr {
   display: block;
   margin-bottom: 10px;
 }
-/* line 562, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 587, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .explore_more a {
   color: black;
   clear: both;
 }
-/* line 565, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 590, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .explore_more .explore_more_arrow {
   background-color: black;
   color: white;
@@ -1015,30 +1058,30 @@ body#site .explore_more .explore_more_arrow {
   display: block;
   display: inline;
 }
-/* line 573, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 598, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #explore_projects #explore_menu {
   float: none;
   display: block;
   width: auto;
 }
-/* line 576, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 601, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #explore_projects #explore_menu h3 {
   color: #00bbc9;
   font-size: 20px;
   text-transform: uppercase;
 }
-/* line 580, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 605, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #explore_projects #explore_menu ul {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #999999;
 }
-/* line 584, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 609, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #explore_projects #explore_menu ul li {
   display: inline;
   border-right: 1px solid #cccccc;
 }
-/* line 587, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 612, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #explore_projects #explore_menu ul li a {
   display: inline;
   background-color: white;
@@ -1046,24 +1089,24 @@ body#site #explore_projects #explore_menu ul li a {
   font-weight: 400;
   color: #999999;
 }
-/* line 593, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 618, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #explore_projects #explore_menu ul li a:hover {
   color: #999999;
   background-color: white;
 }
-/* line 596, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 621, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #explore_projects #explore_menu ul li a.selected {
   color: #f29113;
   background-color: white;
   font-weight: 900;
 }
-/* line 600, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 625, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #explore_projects #explore_results {
   float: none;
   display: block;
   width: auto;
 }
-/* line 606, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 631, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_back_info #back_project form input[type=submit] {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #68a852), color-stop(100%, #498c36));
   background-image: -webkit-linear-gradient(top, #68a852, #498c36);
@@ -1072,7 +1115,7 @@ body#site #project_back_info #back_project form input[type=submit] {
   background-image: -ms-linear-gradient(top, #68a852, #498c36);
   background-image: linear-gradient(top, #68a852, #498c36);
 }
-/* line 608, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 633, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_back_info #back_project form input[type=submit]:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #498c36), color-stop(100%, #68a852));
   background-image: -webkit-linear-gradient(top, #498c36, #68a852);
@@ -1081,7 +1124,7 @@ body#site #project_back_info #back_project form input[type=submit]:hover {
   background-image: -ms-linear-gradient(top, #498c36, #68a852);
   background-image: linear-gradient(top, #498c36, #68a852);
 }
-/* line 610, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 635, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_back_info #back_project form input[type=submit]:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #498c36), color-stop(100%, #68a852));
   background-image: -webkit-linear-gradient(top, #498c36, #68a852);
@@ -1090,7 +1133,7 @@ body#site #project_back_info #back_project form input[type=submit]:hover {
   background-image: -ms-linear-gradient(top, #498c36, #68a852);
   background-image: linear-gradient(top, #498c36, #68a852);
 }
-/* line 612, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 637, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #project_back_info #back_project form input[type=submit]:disabled {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
   background-image: -webkit-linear-gradient(top, #bbbbbb, #888888);
@@ -1099,7 +1142,7 @@ body#site #project_back_info #back_project form input[type=submit]:disabled {
   background-image: -ms-linear-gradient(top, #bbbbbb, #888888);
   background-image: linear-gradient(top, #bbbbbb, #888888);
 }
-/* line 615, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 640, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer {
   clear: both;
   background-color: #82a7ff;
@@ -1113,14 +1156,14 @@ body#site #footer {
   color: #dddddd;
   text-align: left;
 }
-/* line 627, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 652, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer .body {
   width: 960px;
   background: transparent url(coletivo_social/logo_footer.png) 0 50% no-repeat;
   margin: auto;
   position: relative;
 }
-/* line 632, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 657, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer .body #faq {
   position: absolute;
   top: 0;
@@ -1130,21 +1173,21 @@ body#site #footer .body #faq {
   color: #ff961f;
   text-decoration: none;
 }
-/* line 640, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 665, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer a {
   color: #dddddd;
 }
-/* line 642, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 667, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer a:hover {
   color: white;
 }
-/* line 644, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 669, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #footer_menu {
   margin: 0 0 0 150px;
   padding: 20px 0;
   width: auto;
 }
-/* line 648, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 673, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #footer_menu ul {
   margin: 0;
   padding: 0;
@@ -1178,7 +1221,7 @@ body#site #footer #footer_menu ul li:last-child {
 body#site #footer #footer_menu ul li.last {
   padding-right: 0;
 }
-/* line 652, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 677, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #footer_menu ul li {
   float: none;
   display: block;
@@ -1189,41 +1232,46 @@ body#site #footer #footer_menu ul li {
   font-weight: 400;
   padding: 0 0 5px 0;
 }
-/* line 660, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 685, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #footer_menu ul li a {
   text-decoration: none;
 }
-/* line 662, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 687, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #footer_menu ul li a:hover {
   color: #4a498a;
   font-weight: 900;
 }
-/* line 665, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 690, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #footer_menu .collaborate {
   color: white;
   display: inline;
   float: right;
   width: 200px;
 }
-/* line 669, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 694, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #footer_menu .collaborate .buy, body#site #footer #footer_menu .collaborate .stat {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.2);
   margin-bottom: 10px;
   padding: 10px;
 }
-/* line 674, ../../../app/stylesheets/sites/coletivo_social.sass */
-body#site #footer #footer_menu .collaborate .buy p, body#site #footer #footer_menu .collaborate .stat p {
+/* line 700, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #footer #footer_menu .collaborate .stat div {
+  float: left;
+  margin-right: 10px;
+}
+/* line 703, ../../../app/stylesheets/sites/coletivo_social.sass */
+body#site #footer #footer_menu .collaborate .stat p {
   font-weight: 900;
   font-style: italic;
   font-size: 18px;
 }
-/* line 678, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 707, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #footer_menu .collaborate .buy {
   background: rgba(255, 255, 255, 0.2) url(coletivo_social/payments.png) no-repeat 50% 90%;
   padding-bottom: 70px;
 }
-/* line 683, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 712, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #social_menu {
   margin: 0 auto;
   width: 488px;
@@ -1231,13 +1279,13 @@ body#site #footer #social_menu {
   font-size: 16px;
   clear: both;
 }
-/* line 689, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 718, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #social_menu img {
   vertical-align: middle;
   padding-bottom: 4px;
   height: 22px;
 }
-/* line 693, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 722, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #social_menu ul {
   margin: 0;
   padding: 0;
@@ -1268,7 +1316,7 @@ body#site #footer #social_menu ul li:last-child {
 body#site #footer #social_menu ul li.last {
   padding-right: 0;
 }
-/* line 696, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 725, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #social_menu ul li a {
   font-size: 12px;
   padding: 3px 10px 0px;
@@ -1280,15 +1328,15 @@ body#site #footer #social_menu ul li a {
   display: inline;
   float: left;
 }
-/* line 705, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 734, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #footer #social_menu ul li a:hover {
   background-color: #6f76cb;
 }
-/* line 707, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 736, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #gravatar_hint {
   background-image: url();
 }
-/* line 710, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 739, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #how_it_works, body#site #project_warning, body#site #user_feed #gravatar_hint, body#site #companies .hint, body#site #about .hint {
   -webkit-border-radius: 0px 0px;
   -moz-border-radius: 0px / 0px;
@@ -1309,11 +1357,11 @@ body#site #how_it_works, body#site #project_warning, body#site #user_feed #grava
   padding: 20px 10px;
   margin-bottom: 20px;
 }
-/* line 720, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 749, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #how_it_works #show-tips a, body#site #project_warning #show-tips a, body#site #user_feed #gravatar_hint #show-tips a, body#site #companies .hint #show-tips a, body#site #about .hint #show-tips a {
   color: white;
 }
-/* line 723, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 752, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site p#copyright {
   border-top: 3px solid rgba(255, 255, 255, 0.2);
   padding-top: 10px;
@@ -1321,23 +1369,23 @@ body#site p#copyright {
   margin: 0 auto;
   text-align: center;
 }
-/* line 730, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 759, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site p#copyright img {
   width: 10px;
 }
-/* line 732, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 761, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site p#copyright a {
   text-width: 900;
 }
-/* line 735, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 764, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .on_the_spot_editing:after {
   content: " " url("coletivo_social/pencil.png");
 }
-/* line 737, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 766, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #companies {
   background-color: white;
 }
-/* line 740, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 769, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #companies .logos img {
   padding: 5px;
   width: 250px;
@@ -1345,18 +1393,18 @@ body#site #companies .logos img {
   border: 10px solid #efefef;
   margin: 10px;
 }
-/* line 747, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 776, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #about .img {
   height: 200px;
   border: 1px solid red;
   margin-bottom: 20px;
 }
-/* line 752, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 781, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #about .video iframe {
   background-color: black;
   width: 100%;
 }
-/* line 755, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 784, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #about .video .hint {
   background-color: black;
   border: none;
@@ -1366,14 +1414,14 @@ body#site #about .video .hint {
   font-weight: 900;
   margin-bottom: 0;
 }
-/* line 763, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 792, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .comments {
   margin-top: 30px;
   width: 610px;
   float: left;
   clear: left;
 }
-/* line 768, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 797, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .comments h3 {
   background-color: #84afb5;
   padding: 10px;

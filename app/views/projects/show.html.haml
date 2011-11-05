@@ -8,7 +8,10 @@
     #project_share
       #facebook_share= render 'facebook'
       #twitter_share= render 'twitter'
-      %ul
+      %ul.links
+        %li.links Siga este projeto
+        %li.links Enviar
+      %ul.shares
         %li.link
           = image_tag "sites/#{current_site.path}/link_share.png", :title => t('.share.link_title')
           = t('.share.link')
