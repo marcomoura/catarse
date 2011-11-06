@@ -3,8 +3,8 @@
   h2= raw t("sites.#{current_site.path}.content_header.about.subtitle")
   .bread= t("sites.#{current_site.path}.content_header.about.bread")
 #about
-  .img
-    | imagem
+  .img= image_tag "sites/#{current_site.path}/quem_somos.jpg", :width=>927, :height=>282
+    
   .video
     p.hint= t("sites.#{current_site.path}.content_header.about.parag")
     iframe src="http://player.vimeo.com/video/31059830" width="920" height="580"

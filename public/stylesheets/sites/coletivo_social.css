@@ -1505,16 +1505,14 @@ body#site #companies .logos img {
 }
 /* line 855, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #about .img {
-  height: 200px;
-  border: 1px solid red;
   margin-bottom: 20px;
 }
-/* line 860, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 858, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #about .video iframe {
   background-color: black;
   width: 100%;
 }
-/* line 863, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 861, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site #about .video .hint {
   background-color: black;
   border: none;
@@ -1524,14 +1522,14 @@ body#site #about .video .hint {
   font-weight: 900;
   margin-bottom: 0;
 }
-/* line 871, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 869, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .comments {
   margin-top: 30px;
   width: 610px;
   float: left;
   clear: left;
 }
-/* line 876, ../../../app/stylesheets/sites/coletivo_social.sass */
+/* line 874, ../../../app/stylesheets/sites/coletivo_social.sass */
 body#site .comments h3 {
   background-color: #84afb5;
   padding: 10px;
