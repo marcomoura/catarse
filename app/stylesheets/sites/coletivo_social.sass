@@ -76,11 +76,11 @@ body#site
           .frame
             position: absolute
             z-index: 1
-            background-color: #999
+            background: #999 url('coletivo_social/frame_carousel.png') 0 0 repeat
             height: 100%
             width: 960px
             top: 0
-            opacity: .5
+            opacity: .8
             display: block
           &.active, &.show
             .frame
@@ -190,7 +190,7 @@ body#site
       li
         a
           text-decoration: none
-          background-color: #B9B9B9
+          background: #B9B9B9 url('coletivo_social/projects_bt.png') 3% 50% no-repeat
           +border-radius(3px, 3px)
           padding: 5px 10px 5px 40px
           margin-left: 10px
@@ -200,6 +200,10 @@ body#site
           font-weight: 900
           &:hover
             background-color: #EE0578
+          &#new_project_link
+            background-image: url('coletivo_social/new_project.png')
+            &:hover
+              background-color: #0AB7BE
   #content_header_wrapper
     background-color: #F8C181
   #content_wrapper
@@ -356,8 +360,10 @@ body#site
         #project_video
           width: 620px
           background-color: #000
+          +border-radius(10px 10px 0 0)
           .frame
             border: 5px solid #000
+            +border-radius(10px 10px 0 0)
           iframe
             +border-radius(20px, 20px)
             +no-shadow
@@ -872,7 +878,7 @@ body#site
     float: left
     clear: left
     h3
-      background-color: #84AFB5
+      background: #84AFB5 url('coletivo_social/balao_bg.png') 98% 50% no-repeat
       padding: 10px
       font-size: 18px
       color: #fff !important
