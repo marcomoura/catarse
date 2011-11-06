@@ -35,9 +35,78 @@ body#site
         color: #E69C45
   #main
     width: 100%
-    #content_carousel
+    overflow: hidden
+    #container_carousel
+      margin: auto
+      width: 960px
       height: 420px
-      border: 1px dotted red
+      .jcarousel-prev.jcarousel-prev-horizontal ,.jcarousel-next.jcarousel-next-horizontal
+        width: 50px
+        height: 50px
+        background-color: #000
+        display: block
+        position: absolute
+        top: 40%
+        z-index: 4
+        &:hover
+          background-color: #FF961F
+      .jcarousel-prev.jcarousel-prev-horizontal 
+        left: -30px
+        background: #000 url('coletivo_social/carousel_prev.png') 50%  50% no-repeat
+      .jcarousel-next.jcarousel-next-horizontal
+        right: -30px
+        background: #000 url('coletivo_social/carousel_next.png') 50% 50% no-repeat
+      #carousel
+        width: 2900px
+        height: 420px
+        position: absolute
+        overflow: hidden
+        .mask 
+          position: relative
+          overflow: hidden
+          width: 540px 
+        li
+          width: 960px
+          height: 420px
+          float: left
+          position: relative
+          img
+            width: 960px
+            height: 420px
+          .frame
+            position: absolute
+            z-index: 1
+            background-color: #999
+            height: 100%
+            width: 960px
+            top: 0
+            opacity: .5
+            display: block
+          &.active, &.show
+            .frame
+              display: none
+            .text_content
+              padding: 20px
+              z-index: 2
+              position: absolute
+              bottom: 10px
+              right: 10px
+              width: 500px
+              height: 150px
+              color: #ccc
+              +no-text-shadow
+              h3
+                font-size: 24px
+              .bg
+                background-color: rgba( 0 , 0, 0, 0.6)
+                position: absolute
+                top: 0
+                left: 0
+                width: 100%
+                height: 100%
+                z-index: -1
+                
+
   .back_office
     padding: 0
   #user
@@ -296,7 +365,7 @@ body#site
         #rewards
           border: 1px solid #aaa
           h1
-            background-color: #84AFB5
+            background: #84AFB5 url('coletivo_social/gratificacao_bg.png') 0 0 no-repeat
             color: #fff !important
         #back_project
           +no-shadow
@@ -307,6 +376,8 @@ body#site
             float: none
           .info
             padding: 6px
+            input[type="submit"]
+              font-size: 16px !important
           h1, h2
             +font
             padding: 10px
@@ -338,7 +409,10 @@ body#site
               .progress
                 line-height: 14px !important
           .project_warning
+            background: url('coletivo_social/project_register_bg.jpg') 2% 50% no-repeat
+            padding-left: 4%
             &.not_successful, &.successful
+              padding: 0
               background-image: none
               div
                 background-color: #D3C981
@@ -347,7 +421,7 @@ body#site
           fieldset
             padding: 0
           input[type=submit]
-            background: #02BBCF url(coletivo_social/bt.png) 0 0 no-repeat
+            background: #02C6D5 url(coletivo_social/bt.png) 0 0 no-repeat
             +no-shadow
             +no-radius
             color: #fff
@@ -362,7 +436,7 @@ body#site
           border-color: #bbb
           h1
             color: #fff
-            background-color: #84AFB5 !important
+            background: #84AFB5 url('coletivo_social/gratificacao_bg.png') 0 0 no-repeat !important
             border-right: 5px solid #00BCCF
             text-align: right
             +no-text-shadow
@@ -379,12 +453,13 @@ body#site
               h1
                 padding: 10px 5px 
                 color: #222
+                background: #84AFB5 url('coletivo_social/cifrao_bg.png') 0 0 no-repeat !important
           .reward_backers
             color: $color-blue
             padding: 0 20px
       form
         input[type=submit]
-          background: #02BBCF url(coletivo_social/bt.png) 0 0 no-repeat
+          background: #02C6D5 url(coletivo_social/bt.png) 0 0 no-repeat
           +no-shadow
           +no-radius
           color: #fff
@@ -465,20 +540,21 @@ body#site
         p
           position: absolute
           margin-top: -34px
-          background-color: rgba( 0 , 0, 0, 0.6)
+          background: rgba( 0 , 0, 0, 0.6) url('coletivo_social/seta_video.png') 2% 50% no-repeat
           width: 100%
           padding: 0
           a
             color: $color-blue
-            padding: 3px 15px
+            padding: 3px 5%
             font-size: 18px
             text-decoration: none
             display: block
     #credits
       h1
-        background-color: #FDF6EC
+        background: #FDF6EC url('coletivo_social/credit_bg.jpg') 0 0 no-repeat
         font-size: 32px !important
-        padding-left: 100px 
+        padding: 0 0 0 100px !important
+        line-height: 63px
         span
           color: $color-orange 
       h2
@@ -733,9 +809,6 @@ body#site
             +float-left
             &:hover
               background-color: #6F76CB
-  #gravatar_hint
-    background-image: url()
-
   #how_it_works, #project_warning, #user_feed #gravatar_hint, #companies .hint, #about .hint
     +no-radius
     +no-shadow
@@ -748,7 +821,13 @@ body#site
     #show-tips
       a
         color: #fff
+  #gravatar_hint
+    background: #4CC8D0 url(coletivo_social/perfil_bg.jpg) 2% 50% no-repeat
+    padding-left: 90px !important
 
+  #project_warning
+    background: #4CC8D0 url('coletivo_social/project_register_bg.jpg') 2% 50% no-repeat
+    padding-left: 9%
   p#copyright
     border-top: 3px solid rgba(255, 255, 255, .2)
     padding-top: 10px

@@ -11,7 +11,7 @@
           = render "/sites/#{current_site.path}/logo"
       = render "/sites/#{current_site.path}/menu"
       - if is_homepage?
-        #content_carousel
+        #container_carousel
           = yield :content_carousel
       #content_wrapper
         - unless is_homepage?

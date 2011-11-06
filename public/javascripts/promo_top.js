@@ -1,5 +1,8 @@
-$('#promo_top input[type=submit]').click(function(e){
-  e.preventDefault()
-  window.location.href = 'http://catarse.me/pt/abandamaisbonitadacidade'
-})
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        // Configuration goes here
+    });
+});
+</script>
 

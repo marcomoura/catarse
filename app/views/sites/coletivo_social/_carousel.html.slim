@@ -1,4 +1,31 @@
 = content_for :content_carousel do
-  #destaques
-    img src="teste"
-    p= 'começaram as obras etc...'
+  ul#carousel
+    li
+      = image_tag "sites/#{current_site.path}/our_video.jpg", :width=>635, :height=>"420"
+      .text_content
+        h3 "#1 - Começaram as obras do projeto reform sua casa"
+        span Abril 19, 2011
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        .bg
+      .frame
+    li.show
+      = image_tag "sites/#{current_site.path}/our_video.jpg", :width=>635, :height=>"420"
+      .text_content
+        h3 "#2 - Começaram as obras do projeto reform sua casa"
+        span Abril 19, 2011
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        .bg
+      .frame
+    li
+      = image_tag "sites/#{current_site.path}/our_video.jpg", :width=>635, :height=>"420"
+      .text_content
+        h3 "#3 - Começaram as obras do projeto reform sua casa"
+        span Abril 19, 2011
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        .bg
+      .frame
+
+  = javascript_include_tag 'jquery.jcarousel'
+
+  javascript:
+    jQuery(document).ready(function() { jQuery('#carousel').jcarousel({scrool: 1, size: 3, start: 2, wrap: 'circular'}); });
