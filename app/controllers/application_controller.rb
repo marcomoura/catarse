@@ -69,7 +69,7 @@ class ApplicationController < ActionController::Base
 
   def current_site
     return @current_site if @current_site
-    return @current_site = Site.find_by_path(session[:current_site]) if session[:current_site]
+    return @current_site = Site.find_by_path("coletivo_social") #session[:current_site]) if session[:current_site]
     site_host = request.host.gsub "www.", ""
     @current_site = Site.find_by_host site_host
     @current_site = Site.find_by_path("catarse") unless @current_site
