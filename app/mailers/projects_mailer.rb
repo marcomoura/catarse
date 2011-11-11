@@ -1,6 +1,6 @@
 class ProjectsMailer < ActionMailer::Base
   include ERB::Util
-  default :from => SITE_CONFIG[:mailer][:from] 
+  default :from => SITE_CONFIG['mailer']['from'] 
 
   def start_project_email(about, rewards, links, contact, user, site)
     @about = h(about).gsub("\n", "<br>").html_safe
