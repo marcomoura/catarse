@@ -9,6 +9,6 @@ class ProjectsMailer < ActionMailer::Base
     @contact = contact
     @user = user
     @site = site
-    mail(:to =>  SITE_CONFIG[:mailer][:to], :subject => t('projects_mailer.start_project_email.subject', :name => @user.name))
+    mail(:to =>  SITE_CONFIG['mailer']['to'], :subject => t('projects_mailer.start_project_email.subject', :name => @user.name))
   end
 end
