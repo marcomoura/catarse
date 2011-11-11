@@ -36,30 +36,29 @@ body#site
   #main
     width: 100%
     overflow: hidden
-    #container_carousel
+    #jcarousel-container
       margin: auto
-      width: 960px
       height: 420px
-      .jcarousel-prev.jcarousel-prev-horizontal ,.jcarousel-next.jcarousel-next-horizontal
+      width: 960px
+      position: relative
+      .prev ,.next
         width: 50px
         height: 50px
         background-color: #000
         display: block
         position: absolute
         top: 40%
-        z-index: 4
+        z-index: 10
         &:hover
           background-color: #FF961F
-      .jcarousel-prev.jcarousel-prev-horizontal 
+      .prev
         left: -30px
         background: #000 url('coletivo_social/carousel_prev.png') 50%  50% no-repeat
-      .jcarousel-next.jcarousel-next-horizontal
+      .next
         right: -30px
         background: #000 url('coletivo_social/carousel_next.png') 50% 50% no-repeat
-      #carousel
-        width: 2900px
+      ul
         height: 420px
-        position: absolute
         overflow: hidden
         .mask 
           position: relative
@@ -73,39 +72,47 @@ body#site
           img
             width: 960px
             height: 420px
-          .frame
+          .text_content
+            padding: 20px
+            z-index: 2
             position: absolute
-            z-index: 1
-            background: #999 url('coletivo_social/frame_carousel.png') 0 0 repeat
-            height: 100%
-            width: 960px
-            top: 0
-            opacity: .8
-            display: block
-          &.active, &.show
-            .frame
-              display: none
-            .text_content
-              padding: 20px
-              z-index: 2
+            bottom: 10px
+            right: 10px
+            width: 500px
+            height: 150px
+            color: #ccc
+            +no-text-shadow
+            h3
+              font-size: 24px
+            .bg
+              background-color: rgba( 0 , 0, 0, 0.6)
               position: absolute
-              bottom: 10px
-              right: 10px
-              width: 500px
-              height: 150px
-              color: #ccc
-              +no-text-shadow
-              h3
-                font-size: 24px
-              .bg
-                background-color: rgba( 0 , 0, 0, 0.6)
-                position: absolute
-                top: 0
-                left: 0
-                width: 100%
-                height: 100%
-                z-index: -1
-                
+              top: 0
+              left: 0
+              width: 100%
+              height: 100%
+              z-index: -1
+      .frame
+        position: absolute
+        width: 960px
+        top: 0
+        float: none !important
+        .mask
+          z-index: 2
+          background: #999 url('coletivo_social/frame_carousel.png') 0 0 repeat
+          height: 420px
+          width: 100%
+          opacity: .8
+          display: block
+          position: absolute
+        img
+          width: 960px
+        &.left
+          left: 960px
+        &.right
+          right: 960px
+          
+              
 
   .back_office
     padding: 0
