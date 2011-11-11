@@ -1,0 +1,16 @@
+development: &default
+  name: Coletivo Social
+  path: coletivo_social
+  mailer:
+    from: "Coletivo Social <system@coletivosocial.com>"
+    to: "projetos@coletivosocial.com"
+  share:
+    facebook: coletivosocial
+    twitter: coletivosocial
+    blog: "blog.coletivosocial.com"
+
+test:
+  <<: *default
+
+production:
+  <<: *default
