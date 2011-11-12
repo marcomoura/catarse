@@ -31,7 +31,8 @@ Site.find_or_create_by_name(:name => "Coletivo Social",
             :email => "contato@coletivosocial.com", 
             :twitter => "coletivo.social", 
             :facebook => "http://www.facebook.com/pages/coletivosocial", 
-            :blog => "http://blog.coletivosocial.com"
+            :blog => "http://blog.coletivosocial.com",
+            :auth_gateway => true
             )
 
 
